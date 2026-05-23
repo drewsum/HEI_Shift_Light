@@ -1,0 +1,198 @@
+(kicad_sch
+	(version 20260306)
+	(generator "eeschema")
+	(generator_version "10.0")
+	(uuid "288c8230-69eb-4ad9-929d-f4630114196f")
+	(paper "A")
+	(lib_symbols)
+	(sheet
+		(at 36.83 68.58)
+		(size 12.7 3.81)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "3f3e3aac-043b-4713-af21-26e9e85000ef")
+		(property "Sheetname" "Input Signal"
+			(at 36.83 67.8684 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "input_signal.kicad_sch"
+			(at 36.83 72.9746 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "HEI_Shift_Light"
+				(path "/288c8230-69eb-4ad9-929d-f4630114196f"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 36.83 58.42)
+		(size 12.7 3.81)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "41605f50-4a5f-4515-812e-3b7b65ea4a04")
+		(property "Sheetname" "3V3 Power Supply"
+			(at 36.83 57.7084 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "3v3_power_suply.kicad_sch"
+			(at 36.83 62.8146 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "HEI_Shift_Light"
+				(path "/288c8230-69eb-4ad9-929d-f4630114196f"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 36.83 78.74)
+		(size 12.7 3.81)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "5c9f220d-57b1-4b37-ac12-25339229b122")
+		(property "Sheetname" "Microcontroller"
+			(at 36.83 78.0284 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "microcontroller.kicad_sch"
+			(at 36.83 83.1346 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "HEI_Shift_Light"
+				(path "/288c8230-69eb-4ad9-929d-f4630114196f"
+					(page "5")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 36.83 48.26)
+		(size 12.7 3.81)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "eeb602ee-2702-41ca-b272-6ee3ac7088d6")
+		(property "Sheetname" "Input Power"
+			(at 36.83 47.5484 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "input_power.kicad_sch"
+			(at 36.83 52.6546 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "HEI_Shift_Light"
+				(path "/288c8230-69eb-4ad9-929d-f4630114196f"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+)
