@@ -416,7 +416,7 @@
         "uuid": "288c8230-69eb-4ad9-929d-f4630114196f"
       }
     ],
-    "used_designators": "U1,#FLG1-2,R1,#PWR7-15",
+    "used_designators": "#PWR11,#PWR16-20",
     "variants": []
   },
   "sheets": [
@@ -439,6 +439,10 @@
     [
       "5c9f220d-57b1-4b37-ac12-25339229b122",
       "Microcontroller"
+    ],
+    [
+      "c4b824f9-827e-4368-b456-592a65eed557",
+      "USB UART Bridge"
     ]
   ],
   "text_variables": {},

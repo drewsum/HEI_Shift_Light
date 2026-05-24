@@ -144,6 +144,52 @@
 		)
 	)
 	(sheet
+		(at 36.83 88.9)
+		(size 12.7 3.81)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "c4b824f9-827e-4368-b456-592a65eed557")
+		(property "Sheetname" "USB UART Bridge"
+			(at 36.83 88.1884 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "USB_UART_Bridge.kicad_sch"
+			(at 36.83 93.2946 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "HEI_Shift_Light"
+				(path "/288c8230-69eb-4ad9-929d-f4630114196f"
+					(page "6")
+				)
+			)
+		)
+	)
+	(sheet
 		(at 36.83 48.26)
 		(size 12.7 3.81)
 		(exclude_from_sim no)

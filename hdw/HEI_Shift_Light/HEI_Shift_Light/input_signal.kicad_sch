@@ -1362,6 +1362,19 @@
 		)
 		(uuid "634d4643-27a4-46fb-8f9c-ab4c11214645")
 	)
+	(bezier
+		(pts
+			(xy 124.46 77.47) (xy 124.46 77.47) (xy 104.14 49.53) (xy 104.14 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid "868b9768-0265-4ae8-914a-f7800e7a209b")
+	)
 	(text "Decide on zener voltage, amplifier VCC"
 		(exclude_from_sim no)
 		(at 119.38 136.652 0)
@@ -1381,6 +1394,16 @@
 			)
 		)
 		(uuid "4e9027cb-d92d-4d0d-94a8-5c386edaee03")
+	)
+	(text "Unsure on if this is supposed to\nbe resistor to GND or midrail"
+		(exclude_from_sim no)
+		(at 103.378 47.752 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "d0d6ba58-f10b-41d4-b5f8-0276beaf1c01")
 	)
 	(junction
 		(at 204.47 116.84)
@@ -1743,6 +1766,30 @@
 		(uuid "4497546c-73b8-4e49-aaf2-aad86e60b499")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 259.7067 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "TACH_PULSE"
+		(shape output)
+		(at 157.48 40.64 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "bf1bc598-56aa-4de0-b5c6-b9d95013176a")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 172.0766 40.64 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
