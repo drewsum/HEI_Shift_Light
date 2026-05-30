@@ -67,7 +67,7 @@
 			(color 0 0 0 0)
 		)
 		(uuid "41605f50-4a5f-4515-812e-3b7b65ea4a04")
-		(property "Sheetname" "3V3 Power Supply"
+		(property "Sheetname" "5V Power Supply"
 			(at 36.83 57.7084 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -78,7 +78,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "3v3_power_suply.kicad_sch"
+		(property "Sheetfile" "5v_power_supply.kicad_sch"
 			(at 36.83 62.8146 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -185,6 +185,52 @@
 			(project "HEI_Shift_Light"
 				(path "/288c8230-69eb-4ad9-929d-f4630114196f"
 					(page "6")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 36.83 99.06)
+		(size 12.7 3.81)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "e9e880c3-52c8-4ff3-99b0-d37c53694b1a")
+		(property "Sheetname" "RGB LED"
+			(at 36.83 98.3484 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "rgb_led.kicad_sch"
+			(at 36.83 103.4546 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "HEI_Shift_Light"
+				(path "/288c8230-69eb-4ad9-929d-f4630114196f"
+					(page "7")
 				)
 			)
 		)

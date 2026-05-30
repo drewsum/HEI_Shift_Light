@@ -2907,10 +2907,14 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "power:+3.3V"
+		(symbol "power:+5V"
 			(power global)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
 				(offset 0)
+				(hide yes)
 			)
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -2928,7 +2932,7 @@
 					)
 				)
 			)
-			(property "Value" "+3.3V"
+			(property "Value" "+5V"
 				(at 0 3.556 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -2960,7 +2964,7 @@
 					)
 				)
 			)
-			(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(property "Description" "Power symbol creates a global label with name \"+5V\""
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -2982,7 +2986,7 @@
 					)
 				)
 			)
-			(symbol "+3.3V_0_1"
+			(symbol "+5V_0_1"
 				(polyline
 					(pts
 						(xy -0.762 1.27) (xy 0 2.54)
@@ -3020,12 +3024,11 @@
 					)
 				)
 			)
-			(symbol "+3.3V_1_1"
+			(symbol "+5V_1_1"
 				(pin power_in line
 					(at 0 0 90)
 					(length 0)
-					(hide yes)
-					(name "+3.3V"
+					(name ""
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -4140,94 +4143,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+3.3V")
-		(at 116.84 48.895 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "048354d8-6202-466f-9a31-c954154c21e1")
-		(property "Reference" "#PWR?"
-			(at 116.84 52.705 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "+3.3V"
-			(at 116.84 45.339 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 116.84 48.895 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 116.84 48.895 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 116.84 48.895 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "4ce43d9d-8840-40b4-8878-28cc2633f5fd")
-		)
-		(instances
-			(project "Analog_Clock"
-				(path "/0dc9b974-a945-4291-bc55-04b8e342b0e5/00000000-0000-0000-0000-00005e939f76"
-					(reference "#PWR?")
-					(unit 1)
-				)
-			)
-			(project "Nixie_Clock_Core"
-				(path "/16fdce21-b570-4d81-a458-e8839d611806/4cb440c2-4356-400c-9387-edaaa635d5a5"
-					(reference "#PWR01345")
-					(unit 1)
-				)
-			)
-			(project "HEI_Shift_Light"
-				(path "/288c8230-69eb-4ad9-929d-f4630114196f/c4b824f9-827e-4368-b456-592a65eed557"
-					(reference "#PWR?")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:PWR_FLAG")
 		(at 80.01 99.06 0)
 		(unit 1)
@@ -4717,94 +4632,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+3.3V")
-		(at 86.36 24.13 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "0c2f1b26-95ad-4b20-b910-cf8a57331d87")
-		(property "Reference" "#PWR?"
-			(at 86.36 27.94 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "+3.3V"
-			(at 86.36 20.574 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 86.36 24.13 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 86.36 24.13 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 86.36 24.13 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "99fc7c7c-e97c-491c-ba1a-4bb50b464b8f")
-		)
-		(instances
-			(project "Analog_Clock"
-				(path "/0dc9b974-a945-4291-bc55-04b8e342b0e5/00000000-0000-0000-0000-00005e939f76"
-					(reference "#PWR?")
-					(unit 1)
-				)
-			)
-			(project "Nixie_Clock_Core"
-				(path "/16fdce21-b570-4d81-a458-e8839d611806/4cb440c2-4356-400c-9387-edaaa635d5a5"
-					(reference "#PWR01335")
-					(unit 1)
-				)
-			)
-			(project "HEI_Shift_Light"
-				(path "/288c8230-69eb-4ad9-929d-f4630114196f/c4b824f9-827e-4368-b456-592a65eed557"
-					(reference "#PWR?")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Custom_Library:R_Custom")
 		(at 106.68 109.22 270)
 		(unit 1)
@@ -5021,6 +4848,83 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+5V")
+		(at 116.84 49.53 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "0fbc6767-1dfa-4fb2-84ca-71ac882fb310")
+		(property "Reference" "#PWR024"
+			(at 116.84 53.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+5V"
+			(at 116.84 45.974 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 116.84 49.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 116.84 49.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 116.84 49.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "51eadc82-064e-4092-96a2-e3c15e9503e3")
+		)
+		(instances
+			(project "HEI_Shift_Light"
+				(path "/288c8230-69eb-4ad9-929d-f4630114196f/c4b824f9-827e-4368-b456-592a65eed557"
+					(reference "#PWR024")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Custom_Library:R_Custom")
 		(at 106.68 106.68 270)
 		(mirror x)
@@ -5223,95 +5127,6 @@
 			(project "HEI_Shift_Light"
 				(path "/288c8230-69eb-4ad9-929d-f4630114196f/c4b824f9-827e-4368-b456-592a65eed557"
 					(reference "#PWR017")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+3.3V")
-		(at 124.46 26.67 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "1aa26fe3-3c5c-4c5e-86d0-e5e8ddd235a1")
-		(property "Reference" "#PWR?"
-			(at 128.27 26.67 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "+3.3V"
-			(at 120.65 26.67 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 124.46 26.67 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 124.46 26.67 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 124.46 26.67 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "26a4d3ab-f591-41ae-9e25-a3ec371d552d")
-		)
-		(instances
-			(project "Analog_Clock"
-				(path "/0dc9b974-a945-4291-bc55-04b8e342b0e5/00000000-0000-0000-0000-00005e939f76"
-					(reference "#PWR?")
-					(unit 1)
-				)
-			)
-			(project "Nixie_Clock_Core"
-				(path "/16fdce21-b570-4d81-a458-e8839d611806/4cb440c2-4356-400c-9387-edaaa635d5a5"
-					(reference "#PWR01304")
-					(unit 1)
-				)
-			)
-			(project "HEI_Shift_Light"
-				(path "/288c8230-69eb-4ad9-929d-f4630114196f/c4b824f9-827e-4368-b456-592a65eed557"
-					(reference "#PWR?")
 					(unit 1)
 				)
 			)
@@ -5818,6 +5633,83 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+5V")
+		(at 73.66 24.13 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "33842488-a6b6-4efe-88e2-9b78d8bd7750")
+		(property "Reference" "#PWR021"
+			(at 73.66 27.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+5V"
+			(at 73.66 20.574 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 73.66 24.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 73.66 24.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 73.66 24.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "ec481b71-4230-4a81-b136-5f3610fe613b")
+		)
+		(instances
+			(project "HEI_Shift_Light"
+				(path "/288c8230-69eb-4ad9-929d-f4630114196f/c4b824f9-827e-4368-b456-592a65eed557"
+					(reference "#PWR021")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Custom_Library:+3.3V_USB")
 		(at 194.31 24.13 0)
 		(unit 1)
@@ -5907,7 +5799,7 @@
 	)
 	(symbol
 		(lib_id "Custom_Library:C_Custom")
-		(at 173.99 52.705 0)
+		(at 173.99 53.34 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -5917,7 +5809,7 @@
 		(dnp no)
 		(uuid "3be6d4db-8060-4c98-aa90-480326d8ff20")
 		(property "Reference" "C?"
-			(at 174.625 50.165 0)
+			(at 174.625 50.8 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5928,7 +5820,7 @@
 			)
 		)
 		(property "Value" "10uF"
-			(at 174.625 55.245 0)
+			(at 174.625 55.88 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5939,7 +5831,7 @@
 			)
 		)
 		(property "Footprint" "Capacitors_SMD:C_0603"
-			(at 174.9552 56.515 0)
+			(at 174.9552 57.15 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5950,7 +5842,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 174.625 50.165 0)
+			(at 174.625 50.8 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5961,7 +5853,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 173.99 52.705 0)
+			(at 173.99 53.34 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5971,7 +5863,7 @@
 			)
 		)
 		(property "display_footprint" "0603"
-			(at 170.18 50.165 0)
+			(at 170.18 50.8 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5982,7 +5874,7 @@
 			)
 		)
 		(property "Voltage" "10V"
-			(at 170.18 52.705 0)
+			(at 170.18 53.34 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5993,7 +5885,7 @@
 			)
 		)
 		(property "Dielectric" "X5R"
-			(at 170.18 55.245 0)
+			(at 170.18 55.88 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6004,7 +5896,7 @@
 			)
 		)
 		(property "Digi-Key PN" "1276-1871-1-ND"
-			(at 173.99 52.705 0)
+			(at 173.99 53.34 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6083,7 +5975,7 @@
 	)
 	(symbol
 		(lib_id "Custom_Library:C_Custom")
-		(at 154.94 52.705 0)
+		(at 154.94 53.34 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -6093,7 +5985,7 @@
 		(dnp no)
 		(uuid "3c52701a-6d08-4d95-9474-124e58532ee0")
 		(property "Reference" "C?"
-			(at 155.575 50.165 0)
+			(at 155.575 50.8 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6104,7 +5996,7 @@
 			)
 		)
 		(property "Value" "0.1uF"
-			(at 155.575 55.245 0)
+			(at 155.575 55.88 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6115,7 +6007,7 @@
 			)
 		)
 		(property "Footprint" "Capacitors_SMD:C_0603"
-			(at 155.9052 56.515 0)
+			(at 155.9052 57.15 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6126,7 +6018,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 155.575 50.165 0)
+			(at 155.575 50.8 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6137,7 +6029,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 154.94 52.705 0)
+			(at 154.94 53.34 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6147,7 +6039,7 @@
 			)
 		)
 		(property "display_footprint" "0603"
-			(at 151.13 50.165 0)
+			(at 151.13 50.8 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6158,7 +6050,7 @@
 			)
 		)
 		(property "Voltage" "50V"
-			(at 151.13 52.705 0)
+			(at 151.13 53.34 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6169,7 +6061,7 @@
 			)
 		)
 		(property "Dielectric" "X7R"
-			(at 151.13 55.245 0)
+			(at 151.13 55.88 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6180,7 +6072,7 @@
 			)
 		)
 		(property "Digi-Key PN" "1276-1935-1-ND"
-			(at 165.735 40.005 0)
+			(at 165.735 40.64 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6357,94 +6249,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+3.3V")
-		(at 97.79 48.895 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "5161a4f0-9436-426d-8842-6acc9f85e4ee")
-		(property "Reference" "#PWR?"
-			(at 97.79 52.705 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "+3.3V"
-			(at 97.79 45.339 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 97.79 48.895 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 97.79 48.895 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 97.79 48.895 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "9b7ea940-a8ca-4701-a1c3-96de4b28ad5d")
-		)
-		(instances
-			(project "Analog_Clock"
-				(path "/0dc9b974-a945-4291-bc55-04b8e342b0e5/00000000-0000-0000-0000-00005e939f76"
-					(reference "#PWR?")
-					(unit 1)
-				)
-			)
-			(project "Nixie_Clock_Core"
-				(path "/16fdce21-b570-4d81-a458-e8839d611806/4cb440c2-4356-400c-9387-edaaa635d5a5"
-					(reference "#PWR01344")
-					(unit 1)
-				)
-			)
-			(project "HEI_Shift_Light"
-				(path "/288c8230-69eb-4ad9-929d-f4630114196f/c4b824f9-827e-4368-b456-592a65eed557"
-					(reference "#PWR?")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Custom_Library:+3.3V_USB")
 		(at 50.8 96.52 0)
 		(unit 1)
@@ -6527,6 +6331,83 @@
 			(project "HEI_Shift_Light"
 				(path "/288c8230-69eb-4ad9-929d-f4630114196f/c4b824f9-827e-4368-b456-592a65eed557"
 					(reference "#PWR?")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 97.79 49.53 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "5c6294c1-f440-41f4-bcf2-16afbf1be740")
+		(property "Reference" "#PWR023"
+			(at 97.79 53.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+5V"
+			(at 97.79 45.974 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 97.79 49.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 97.79 49.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 97.79 49.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "fb2eb558-4243-4376-8458-8fe47834691f")
+		)
+		(instances
+			(project "HEI_Shift_Light"
+				(path "/288c8230-69eb-4ad9-929d-f4630114196f/c4b824f9-827e-4368-b456-592a65eed557"
+					(reference "#PWR023")
 					(unit 1)
 				)
 			)
@@ -6616,7 +6497,7 @@
 	)
 	(symbol
 		(lib_id "Custom_Library:+3.3V_USB")
-		(at 173.99 48.895 0)
+		(at 173.99 49.53 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -6626,7 +6507,7 @@
 		(dnp no)
 		(uuid "693cf60b-78ef-4524-9955-a3ccd5dc548b")
 		(property "Reference" "#PWR?"
-			(at 173.99 52.705 0)
+			(at 173.99 53.34 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6637,7 +6518,7 @@
 			)
 		)
 		(property "Value" "+3.3V_USB"
-			(at 173.99 45.339 0)
+			(at 173.99 45.974 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6647,7 +6528,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 173.99 48.895 0)
+			(at 173.99 49.53 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6658,7 +6539,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 173.99 48.895 0)
+			(at 173.99 49.53 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6669,7 +6550,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 173.99 48.895 0)
+			(at 173.99 49.53 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6792,7 +6673,7 @@
 	)
 	(symbol
 		(lib_id "Custom_Library:C_Custom")
-		(at 97.79 52.705 0)
+		(at 97.79 53.34 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -6802,7 +6683,7 @@
 		(dnp no)
 		(uuid "6e43e514-fa93-49e4-8f51-1182149e9610")
 		(property "Reference" "C?"
-			(at 98.425 50.165 0)
+			(at 98.425 50.8 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6813,7 +6694,7 @@
 			)
 		)
 		(property "Value" "0.1uF"
-			(at 98.425 55.245 0)
+			(at 98.425 55.88 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6824,7 +6705,7 @@
 			)
 		)
 		(property "Footprint" "Capacitors_SMD:C_0603"
-			(at 98.7552 56.515 0)
+			(at 98.7552 57.15 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6835,7 +6716,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 98.425 50.165 0)
+			(at 98.425 50.8 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6846,7 +6727,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 97.79 52.705 0)
+			(at 97.79 53.34 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6856,7 +6737,7 @@
 			)
 		)
 		(property "display_footprint" "0603"
-			(at 93.98 50.165 0)
+			(at 93.98 50.8 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6867,7 +6748,7 @@
 			)
 		)
 		(property "Voltage" "50V"
-			(at 93.98 52.705 0)
+			(at 93.98 53.34 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6878,7 +6759,7 @@
 			)
 		)
 		(property "Dielectric" "X7R"
-			(at 93.98 55.245 0)
+			(at 93.98 55.88 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6889,7 +6770,7 @@
 			)
 		)
 		(property "Digi-Key PN" "1276-1935-1-ND"
-			(at 108.585 40.005 0)
+			(at 108.585 40.64 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7285,94 +7166,6 @@
 			(project "HEI_Shift_Light"
 				(path "/288c8230-69eb-4ad9-929d-f4630114196f/c4b824f9-827e-4368-b456-592a65eed557"
 					(reference "R?")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+3.3V")
-		(at 73.66 24.13 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "7e0e3db3-b4a5-44ca-bba0-bb81043b5fda")
-		(property "Reference" "#PWR?"
-			(at 73.66 27.94 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "+3.3V"
-			(at 73.66 20.574 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 73.66 24.13 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 73.66 24.13 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 73.66 24.13 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "5f5cbc43-6f7d-4c9d-abbb-92c5f52aedbe")
-		)
-		(instances
-			(project "Analog_Clock"
-				(path "/0dc9b974-a945-4291-bc55-04b8e342b0e5/00000000-0000-0000-0000-00005e939f76"
-					(reference "#PWR?")
-					(unit 1)
-				)
-			)
-			(project "Nixie_Clock_Core"
-				(path "/16fdce21-b570-4d81-a458-e8839d611806/4cb440c2-4356-400c-9387-edaaa635d5a5"
-					(reference "#PWR01331")
-					(unit 1)
-				)
-			)
-			(project "HEI_Shift_Light"
-				(path "/288c8230-69eb-4ad9-929d-f4630114196f/c4b824f9-827e-4368-b456-592a65eed557"
-					(reference "#PWR?")
 					(unit 1)
 				)
 			)
@@ -8376,7 +8169,7 @@
 	)
 	(symbol
 		(lib_id "Custom Library:GND_USB")
-		(at 154.94 56.515 0)
+		(at 154.94 57.15 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -8386,7 +8179,7 @@
 		(dnp no)
 		(uuid "9d64e9b8-78ab-4098-80e4-c0ff2525770b")
 		(property "Reference" "#PWR01341"
-			(at 154.94 62.865 0)
+			(at 154.94 63.5 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8397,7 +8190,7 @@
 			)
 		)
 		(property "Value" "GND_USB"
-			(at 154.94 60.325 0)
+			(at 154.94 60.96 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8407,7 +8200,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 154.94 56.515 0)
+			(at 154.94 57.15 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8418,7 +8211,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 154.94 56.515 0)
+			(at 154.94 57.15 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8429,7 +8222,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 154.94 56.515 0)
+			(at 154.94 57.15 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8458,7 +8251,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 97.79 56.515 0)
+		(at 97.79 57.15 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -8468,7 +8261,7 @@
 		(dnp no)
 		(uuid "a1657442-620d-40ab-b9c7-0219dfdd1a7e")
 		(property "Reference" "#PWR01346"
-			(at 97.79 62.865 0)
+			(at 97.79 63.5 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8479,7 +8272,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 97.79 60.325 0)
+			(at 97.79 60.96 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8489,7 +8282,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 97.79 56.515 0)
+			(at 97.79 57.15 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8500,7 +8293,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 97.79 56.515 0)
+			(at 97.79 57.15 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8511,7 +8304,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 97.79 56.515 0)
+			(at 97.79 57.15 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8869,7 +8662,7 @@
 	)
 	(symbol
 		(lib_id "Custom_Library:C_Custom")
-		(at 116.84 52.705 0)
+		(at 116.84 53.34 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -8879,7 +8672,7 @@
 		(dnp no)
 		(uuid "ad96119f-9c61-45e1-a84d-58c7966a022b")
 		(property "Reference" "C?"
-			(at 117.475 50.165 0)
+			(at 117.475 50.8 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8890,7 +8683,7 @@
 			)
 		)
 		(property "Value" "10uF"
-			(at 117.475 55.245 0)
+			(at 117.475 55.88 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8901,7 +8694,7 @@
 			)
 		)
 		(property "Footprint" "Capacitors_SMD:C_0603"
-			(at 117.8052 56.515 0)
+			(at 117.8052 57.15 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8912,7 +8705,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 117.475 50.165 0)
+			(at 117.475 50.8 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8923,7 +8716,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 116.84 52.705 0)
+			(at 116.84 53.34 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8933,7 +8726,7 @@
 			)
 		)
 		(property "display_footprint" "0603"
-			(at 113.03 50.165 0)
+			(at 113.03 50.8 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8944,7 +8737,7 @@
 			)
 		)
 		(property "Voltage" "10V"
-			(at 113.03 52.705 0)
+			(at 113.03 53.34 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8955,7 +8748,7 @@
 			)
 		)
 		(property "Dielectric" "X5R"
-			(at 113.03 55.245 0)
+			(at 113.03 55.88 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8966,7 +8759,7 @@
 			)
 		)
 		(property "Digi-Key PN" "1276-1871-1-ND"
-			(at 116.84 52.705 0)
+			(at 116.84 53.34 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9856,8 +9649,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Custom Library:GND_USB")
-		(at 173.99 56.515 0)
+		(lib_id "power:+5V")
+		(at 86.36 24.13 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -9865,9 +9658,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "dac4beb9-0a43-4fd3-977f-a9b988408e44")
-		(property "Reference" "#PWR01343"
-			(at 173.99 62.865 0)
+		(uuid "d3d288a7-76c7-457d-a120-c6a0e734fb73")
+		(property "Reference" "#PWR022"
+			(at 86.36 27.94 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9877,8 +9670,8 @@
 				)
 			)
 		)
-		(property "Value" "GND_USB"
-			(at 173.99 60.325 0)
+		(property "Value" "+5V"
+			(at 86.36 20.574 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9888,7 +9681,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 173.99 56.515 0)
+			(at 86.36 24.13 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9899,7 +9692,163 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 173.99 56.515 0)
+			(at 86.36 24.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 86.36 24.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "25119100-2c35-436e-b568-06d0c0ab35e5")
+		)
+		(instances
+			(project "HEI_Shift_Light"
+				(path "/288c8230-69eb-4ad9-929d-f4630114196f/c4b824f9-827e-4368-b456-592a65eed557"
+					(reference "#PWR022")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 124.46 26.67 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d4cb0b22-fb62-4d87-a576-a1e1e1c96e5e")
+		(property "Reference" "#PWR025"
+			(at 128.27 26.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+5V"
+			(at 120.65 26.6699 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 124.46 26.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 124.46 26.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 124.46 26.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "2b7b5de5-3ca8-4160-a978-bb2a30198a0b")
+		)
+		(instances
+			(project "HEI_Shift_Light"
+				(path "/288c8230-69eb-4ad9-929d-f4630114196f/c4b824f9-827e-4368-b456-592a65eed557"
+					(reference "#PWR025")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Custom Library:GND_USB")
+		(at 173.99 57.15 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "dac4beb9-0a43-4fd3-977f-a9b988408e44")
+		(property "Reference" "#PWR01343"
+			(at 173.99 63.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND_USB"
+			(at 173.99 60.96 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 173.99 57.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 173.99 57.15 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9910,7 +9859,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 173.99 56.515 0)
+			(at 173.99 57.15 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10144,7 +10093,7 @@
 	)
 	(symbol
 		(lib_id "Custom_Library:+3.3V_USB")
-		(at 154.94 48.895 0)
+		(at 154.94 49.53 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -10154,7 +10103,7 @@
 		(dnp no)
 		(uuid "e880cbc2-50f6-450c-b8b0-7b67dd12a6cf")
 		(property "Reference" "#PWR?"
-			(at 154.94 52.705 0)
+			(at 154.94 53.34 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10165,7 +10114,7 @@
 			)
 		)
 		(property "Value" "+3.3V_USB"
-			(at 154.94 45.339 0)
+			(at 154.94 45.974 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10175,7 +10124,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 154.94 48.895 0)
+			(at 154.94 49.53 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10186,7 +10135,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 154.94 48.895 0)
+			(at 154.94 49.53 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10197,7 +10146,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 154.94 48.895 0)
+			(at 154.94 49.53 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10626,7 +10575,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 116.84 56.515 0)
+		(at 116.84 57.15 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -10636,7 +10585,7 @@
 		(dnp no)
 		(uuid "fd56edd8-b55b-45cc-9533-d61214b3a8e3")
 		(property "Reference" "#PWR01347"
-			(at 116.84 62.865 0)
+			(at 116.84 63.5 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10647,7 +10596,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 116.84 60.325 0)
+			(at 116.84 60.96 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10657,7 +10606,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 116.84 56.515 0)
+			(at 116.84 57.15 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10668,7 +10617,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 116.84 56.515 0)
+			(at 116.84 57.15 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10679,7 +10628,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 116.84 56.515 0)
+			(at 116.84 57.15 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
