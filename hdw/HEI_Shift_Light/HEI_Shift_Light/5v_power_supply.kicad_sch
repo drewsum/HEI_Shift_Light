@@ -4,7 +4,136 @@
 	(generator_version "10.0")
 	(uuid "d2f50a5d-c474-4657-812b-68921ba2f1a3")
 	(paper "A")
+	(title_block
+		(title "HEI Shift Light")
+		(date "2026-05-29")
+		(rev "A")
+		(company "Drew Maatman")
+	)
 	(lib_symbols
+		(symbol "Connector:TestPoint"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.762)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "TP"
+				(at 0 6.858 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "TestPoint"
+				(at 0 5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 5.08 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 5.08 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "test point"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "test point tp"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "Pin* Test*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "TestPoint_0_1"
+				(circle
+					(center 0 3.302)
+					(radius 0.762)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "TestPoint_1_1"
+				(pin passive line
+					(at 0 0 90)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Custom Library:Vin"
 			(power global)
 			(pin_names
@@ -704,130 +833,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Custom_Library:TP"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "TP"
-				(at 0 3.81 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "TP"
-				(at 0 3.81 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" "TestPoint:TestPoint_Keystone_5005-5009_Compact"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.524 1.524)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.524 1.524)
-					)
-				)
-			)
-			(property "Description" "Test Point"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Digi-Key PN" "36-5005-ND"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "TP_0_1"
-				(circle
-					(center 0 1.905)
-					(radius 0.635)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 0) (xy 0 1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "TP_1_1"
-				(pin passive line
-					(at 0 0 90)
-					(length 0)
-					(name "TP"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Custom_Library:TPS62150"
 			(pin_names
 				(offset 0.254)
@@ -1239,338 +1244,9 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Custom_Library:ZXMS6004FFTA"
+		(symbol "Diode:BAT54SW"
 			(pin_names
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "Q"
-				(at 5.08 1.905 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "ZXMS6004FFTA"
-				(at 5.08 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
-				(at 5.08 -1.905 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(italic yes)
-					)
-					(justify left)
-				)
-			)
-			(property "Datasheet" "https://www.diodes.com/assets/Datasheets/ZXMS6004FF.pdf"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Description" "Power Switch/Driver 1:1 N-Channel 1.3A 60V SOT-23F"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Digi-Key PN" "ZXMS6004FFCT-ND"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "N-Channel MOSFET"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_fp_filters" "SOT?23*"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "ZXMS6004FFTA_0_1"
-				(polyline
-					(pts
-						(xy 0.254 1.905) (xy 0.254 -1.905)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.254 0) (xy -2.54 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.762 2.286) (xy 0.762 1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.762 0.508) (xy 0.762 -0.508)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.762 -1.27) (xy 0.762 -2.286)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.762 -1.778) (xy 3.302 -1.778) (xy 3.302 1.778) (xy 0.762 1.778)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.016 0) (xy 2.032 0.381) (xy 2.032 -0.381) (xy 1.016 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(circle
-					(center 1.651 0)
-					(radius 2.794)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 2.54) (xy 2.54 1.778)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 2.54 1.778)
-					(radius 0.254)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(circle
-					(center 2.54 -1.778)
-					(radius 0.254)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 -2.54) (xy 2.54 0) (xy 0.762 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.794 0.508) (xy 2.921 0.381) (xy 3.683 0.381) (xy 3.81 0.254)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 3.302 0.381) (xy 2.921 -0.254) (xy 3.683 -0.254) (xy 3.302 0.381)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "ZXMS6004FFTA_1_1"
-				(pin input line
-					(at -5.08 0 0)
-					(length 2.54)
-					(name "G"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 2.54 -5.08 90)
-					(length 2.54)
-					(name "S"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 2.54 5.08 270)
-					(length 2.54)
-					(name "D"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "Diode:BAT48JFILM"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 1.016)
-				(hide yes)
+				(offset 0)
 			)
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -1578,27 +1254,41 @@
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "D"
-				(at 0 2.54 0)
+				(at 0.635 -3.81 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left)
 				)
 			)
-			(property "Value" "BAT48JFILM"
-				(at 0 -2.54 0)
+			(property "Value" "BAT54SW"
+				(at -6.35 3.175 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left)
 				)
 			)
-			(property "Footprint" "Diode_SMD:D_SOD-323"
-				(at 0 -4.445 0)
+			(property "Footprint" "Package_TO_SOT_SMD:SOT-323_SC-70"
+				(at 1.905 3.175 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/BAT54W_SER.pdf"
+				(at -3.048 0 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -1608,7 +1298,7 @@
 					)
 				)
 			)
-			(property "Datasheet" "www.st.com/resource/en/datasheet/bat48.pdf"
+			(property "Description" "Vr 30V, If 200mA, Dual schottky barrier diode, in series, SOT-323"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1619,7 +1309,7 @@
 					)
 				)
 			)
-			(property "Description" "40V 0.35A Small Signal Schottky Diode, SOD-323"
+			(property "ki_keywords" "dual schottky diode"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1630,7 +1320,7 @@
 					)
 				)
 			)
-			(property "ki_keywords" "diode Schottky"
+			(property "ki_fp_filters" "SOT?323*"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1641,24 +1331,13 @@
 					)
 				)
 			)
-			(property "ki_fp_filters" "D*SOD?323*"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "BAT48JFILM_0_1"
+			(symbol "BAT54SW_0_1"
 				(polyline
 					(pts
-						(xy -1.905 0.635) (xy -1.905 1.27) (xy -1.27 1.27) (xy -1.27 -1.27) (xy -0.635 -1.27) (xy -0.635 -0.635)
+						(xy -4.445 1.27) (xy -4.445 -1.27) (xy -2.54 0) (xy -4.445 1.27)
 					)
 					(stroke
-						(width 0.254)
+						(width 0)
 						(type default)
 					)
 					(fill
@@ -1667,10 +1346,10 @@
 				)
 				(polyline
 					(pts
-						(xy 1.27 1.27) (xy 1.27 -1.27) (xy -1.27 0) (xy 1.27 1.27)
+						(xy -3.81 0) (xy -1.27 0)
 					)
 					(stroke
-						(width 0.254)
+						(width 0)
 						(type default)
 					)
 					(fill
@@ -1679,7 +1358,162 @@
 				)
 				(polyline
 					(pts
-						(xy 1.27 0) (xy -1.27 0)
+						(xy -3.175 -1.27) (xy -3.175 -1.016)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.54 1.27) (xy -1.905 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.54 -1.27) (xy -3.175 -1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.54 -1.27) (xy -2.54 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.905 1.27) (xy -1.905 1.016)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.905 0) (xy 1.905 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 0 0)
+					(radius 0.254)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 0) (xy 3.81 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.905 1.27) (xy 1.905 -1.27) (xy 3.81 0) (xy 1.905 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.175 -1.27) (xy 3.175 -1.016)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.81 1.27) (xy 4.445 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.81 -1.27) (xy 3.175 -1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.81 -1.27) (xy 3.81 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 4.445 1.27) (xy 4.445 1.016)
 					)
 					(stroke
 						(width 0)
@@ -1690,11 +1524,11 @@
 					)
 				)
 			)
-			(symbol "BAT48JFILM_1_1"
+			(symbol "BAT54SW_1_1"
 				(pin passive line
-					(at -3.81 0 0)
-					(length 2.54)
-					(name "K"
+					(at -7.62 0 0)
+					(length 3.81)
+					(name "A"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1710,9 +1544,9 @@
 					)
 				)
 				(pin passive line
-					(at 3.81 0 180)
-					(length 2.54)
-					(name "A"
+					(at 7.62 0 180)
+					(length 3.81)
+					(name "K"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1720,6 +1554,24 @@
 						)
 					)
 					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -5.08 90)
+					(length 5.08)
+					(name "COM"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1775,7 +1627,7 @@
 				)
 			)
 			(property "Datasheet" "https://www.infineon.com/dgdl/Infineon-BSS214NW-DS-v02_02-en.pdf?fileId=db3a30431b3e89eb011b695aebc01bde"
-				(at 0 0 0)
+				(at 5.08 -3.81 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -2034,142 +1886,6 @@
 						)
 					)
 					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "power:+3.3V"
-			(power global)
-			(pin_names
-				(offset 0)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "#PWR"
-				(at 0 -3.81 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "+3.3V"
-				(at 0 3.556 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "global power"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "+3.3V_0_1"
-				(polyline
-					(pts
-						(xy -0.762 1.27) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 2.54) (xy 0.762 1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 0) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "+3.3V_1_1"
-				(pin power_in line
-					(at 0 0 90)
-					(length 0)
-					(hide yes)
-					(name "+3.3V"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2653,6 +2369,10 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f8b219f8-7255-402b-b421-74f799d14e13")
+	)
+	(no_connect
+		(at 204.47 25.4)
+		(uuid "d2a8deb3-b81c-4fe1-a597-29d6e4d69a8e")
 	)
 	(wire
 		(pts
@@ -3395,7 +3115,7 @@
 			"DyfWRMufYO8uAAAAAElFTkSuQmCC"
 		)
 	)
-	(global_label "POS3P3_RUN"
+	(global_label "POS5_RUN"
 		(shape input)
 		(at 214.63 62.23 180)
 		(effects
@@ -4105,6 +3825,207 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 163.83 64.77 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1ea60199-f882-41fc-b00c-62ba7457f5f0")
+		(property "Reference" "TP?"
+			(at 163.83 55.88 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "5V"
+			(at 163.83 58.42 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+			(at 168.91 64.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 168.91 64.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 163.83 64.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "d48cd239-c037-4901-ac8a-a8e234ee7dd3")
+		)
+		(instances
+			(project "HEI_Shift_Light"
+				(path "/288c8230-69eb-4ad9-929d-f4630114196f/41605f50-4a5f-4515-812e-3b7b65ea4a04"
+					(reference "TP?")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Custom_Library:R_Custom")
+		(at 241.3 45.72 0)
+		(mirror y)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "22ec844e-749e-4f40-ac6d-59f5f2f37dbb")
+		(property "Reference" "R?"
+			(at 239.522 42.418 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "150"
+			(at 241.3 45.72 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 241.3 45.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 241.3 45.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 241.3 45.72 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "display_footprint" "0603"
+			(at 239.522 44.45 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Tolerance" "1%"
+			(at 239.522 46.736 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Wattage" "1/10W"
+			(at 239.522 49.022 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Digi-Key PN" ""
+			(at 241.3 45.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "757e5d59-e803-44fa-b272-ec3eaafc6558")
+		)
+		(pin "2"
+			(uuid "2dbac27d-31de-46c9-b1fa-769c8e66ac2b")
+		)
+		(instances
+			(project "HEI_Shift_Light"
+				(path "/288c8230-69eb-4ad9-929d-f4630114196f/41605f50-4a5f-4515-812e-3b7b65ea4a04"
+					(reference "R?")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Custom_Library:R_Custom")
 		(at 60.96 29.21 270)
 		(unit 1)
@@ -4225,6 +4146,83 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
+		(at 241.3 41.91 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "3688edb5-9481-48ff-a1ba-8924b1c0f274")
+		(property "Reference" "#PWR?"
+			(at 241.3 45.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+5V"
+			(at 241.3 38.354 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 241.3 41.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 241.3 41.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 241.3 41.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "d19e7fa2-3f25-4e34-9484-edbc1c6b8069")
+		)
+		(instances
+			(project "HEI_Shift_Light"
+				(path "/288c8230-69eb-4ad9-929d-f4630114196f/41605f50-4a5f-4515-812e-3b7b65ea4a04"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
 		(at 58.42 82.55 0)
 		(unit 1)
 		(body_style 1)
@@ -4234,7 +4232,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "3d725615-6da0-41c3-bf24-9a8e64c5847a")
-		(property "Reference" "#PWR036"
+		(property "Reference" "#PWR?"
 			(at 58.42 86.36 0)
 			(hide yes)
 			(show_name no)
@@ -4294,7 +4292,7 @@
 		(instances
 			(project "HEI_Shift_Light"
 				(path "/288c8230-69eb-4ad9-929d-f4630114196f/41605f50-4a5f-4515-812e-3b7b65ea4a04"
-					(reference "#PWR036")
+					(reference "#PWR?")
 					(unit 1)
 				)
 			)
@@ -4310,9 +4308,10 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "3ff5761e-8a04-41f7-ba5e-e456c08d6750")
+		(fields_autoplaced yes)
+		(uuid "4a0c8afa-7a89-4afe-85dc-0a7edaccba89")
 		(property "Reference" "Q?"
-			(at 224.79 60.325 0)
+			(at 226.06 60.9599 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4323,7 +4322,7 @@
 			)
 		)
 		(property "Value" "BSS214NW"
-			(at 224.79 62.23 0)
+			(at 226.06 63.4999 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4347,7 +4346,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.infineon.com/dgdl/Infineon-BSS214NW-DS-v02_02-en.pdf?fileId=db3a30431b3e89eb011b695aebc01bde"
-			(at 219.71 62.23 0)
+			(at 224.79 66.04 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4358,17 +4357,7 @@
 				(justify left)
 			)
 		)
-		(property "Description" ""
-			(at 219.71 62.23 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Digi-Key PN" "BSS214NWH6327XTSA1CT-ND"
+		(property "Description" "20V Vds, 1.5A Id, N-Channel MOSFET, SOT-323"
 			(at 219.71 62.23 0)
 			(hide yes)
 			(show_name no)
@@ -4379,14 +4368,14 @@
 				)
 			)
 		)
-		(pin "1"
-			(uuid "da59b72e-b1f3-4fa0-8616-e88f4ed5d75c")
-		)
 		(pin "2"
-			(uuid "bbde47f4-fa54-479d-84ee-9f7af195a079")
+			(uuid "d3697031-2efd-47ab-a538-8b9dc36cb577")
+		)
+		(pin "1"
+			(uuid "8f7427a0-9e2e-4585-b9e6-fb4d8e8ddd38")
 		)
 		(pin "3"
-			(uuid "151ae860-c24e-4791-820f-f8db6b305a25")
+			(uuid "3b04dd62-6334-465e-a50a-77ef6be8d91f")
 		)
 		(instances
 			(project "HEI_Shift_Light"
@@ -4398,8 +4387,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Diode:BAT48JFILM")
-		(at 204.47 36.83 90)
+		(lib_id "Diode:BAT54SW")
+		(at 204.47 33.02 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4407,31 +4396,43 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "47ac45a4-1d9a-43c4-9740-3ab65308fef9")
+		(uuid "4f9d0614-57ca-4757-a72f-32135ea14715")
 		(property "Reference" "D?"
-			(at 207.518 35.052 90)
+			(at 207.518 36.83 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
-		(property "Value" "BAT48JFILM"
-			(at 207.518 37.592 90)
+		(property "Value" "BAT54SW"
+			(at 207.518 34.29 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SOD-323"
-			(at 208.915 36.83 0)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-323_SC-70"
+			(at 207.645 34.925 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/BAT54W_SER.pdf"
+			(at 204.47 29.972 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4441,29 +4442,8 @@
 				)
 			)
 		)
-		(property "Datasheet" "www.st.com/resource/en/datasheet/bat48.pdf"
-			(at 204.47 36.83 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 204.47 36.83 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Digi-Key PN" "497-5711-1-ND"
-			(at 204.47 36.83 0)
+		(property "Description" "Vr 30V, If 200mA, Dual schottky barrier diode, in series, SOT-323"
+			(at 204.47 33.02 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4474,10 +4454,13 @@
 			)
 		)
 		(pin "1"
-			(uuid "1fbbb4f1-60ec-4a5e-86bb-0445bdeec3dc")
+			(uuid "0f944297-d6b9-4826-a46d-85c365c87f3c")
 		)
 		(pin "2"
-			(uuid "5d1f72bb-2edf-4936-9890-85276dd05ce1")
+			(uuid "0c35b737-3c7f-4631-a9cc-ebf20beeaa65")
+		)
+		(pin "3"
+			(uuid "c2557ad7-e2d9-482d-98e5-1ef6630916ea")
 		)
 		(instances
 			(project "HEI_Shift_Light"
@@ -4622,7 +4605,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "5bcf8e3a-06cf-4202-9088-b5a57ba5176b")
-		(property "Reference" "#PWR015"
+		(property "Reference" "#PWR?"
 			(at 58.42 58.42 0)
 			(hide yes)
 			(show_name no)
@@ -4680,7 +4663,7 @@
 		(instances
 			(project "HEI_Shift_Light"
 				(path "/288c8230-69eb-4ad9-929d-f4630114196f/41605f50-4a5f-4515-812e-3b7b65ea4a04"
-					(reference "#PWR015")
+					(reference "#PWR?")
 					(unit 1)
 				)
 			)
@@ -5292,7 +5275,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8a772ec5-6c88-436a-afcd-560323811bd4")
-		(property "Reference" "#PWR035"
+		(property "Reference" "#PWR?"
 			(at 133.35 77.47 0)
 			(hide yes)
 			(show_name no)
@@ -5353,7 +5336,7 @@
 		(instances
 			(project "HEI_Shift_Light"
 				(path "/288c8230-69eb-4ad9-929d-f4630114196f/41605f50-4a5f-4515-812e-3b7b65ea4a04"
-					(reference "#PWR035")
+					(reference "#PWR?")
 					(unit 1)
 				)
 			)
@@ -5430,103 +5413,6 @@
 			(project "HEI_Shift_Light"
 				(path "/288c8230-69eb-4ad9-929d-f4630114196f/41605f50-4a5f-4515-812e-3b7b65ea4a04"
 					(reference "#PWR?")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Custom_Library:ZXMS6004FFTA")
-		(at 238.76 54.61 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "b08f7191-c3ee-4395-8636-557e60251b6a")
-		(property "Reference" "Q?"
-			(at 243.84 52.705 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "ZXMS6004FFTA"
-			(at 243.84 54.61 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
-			(at 243.84 56.515 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(justify left)
-			)
-		)
-		(property "Datasheet" "https://www.diodes.com/assets/Datasheets/ZXMS6004FF.pdf"
-			(at 238.76 54.61 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Description" ""
-			(at 238.76 54.61 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Digi-Key PN" "ZXMS6004FFCT-ND"
-			(at 238.76 54.61 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "66304b69-bfb7-4da8-9d3c-3decd25d0fe0")
-		)
-		(pin "2"
-			(uuid "a5ae2db9-03ff-4616-b0cc-ce29833d720e")
-		)
-		(pin "3"
-			(uuid "0a92aee1-30c1-4186-a77f-06719813d61e")
-		)
-		(instances
-			(project "HEI_Shift_Light"
-				(path "/288c8230-69eb-4ad9-929d-f4630114196f/41605f50-4a5f-4515-812e-3b7b65ea4a04"
-					(reference "Q?")
 					(unit 1)
 				)
 			)
@@ -5904,6 +5790,94 @@
 		)
 	)
 	(symbol
+		(lib_id "Transistor_FET:BSS214NW")
+		(at 238.76 54.61 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "be440343-1754-4440-98b7-239b4eddb9a1")
+		(property "Reference" "Q?"
+			(at 245.11 53.3399 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "BSS214NW"
+			(at 245.11 55.8799 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-323_SC-70"
+			(at 243.84 56.515 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+			)
+		)
+		(property "Datasheet" "https://www.infineon.com/dgdl/Infineon-BSS214NW-DS-v02_02-en.pdf?fileId=db3a30431b3e89eb011b695aebc01bde"
+			(at 243.84 58.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Description" "20V Vds, 1.5A Id, N-Channel MOSFET, SOT-323"
+			(at 238.76 54.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "724fc123-3623-45a9-89c3-a4a4ed33fc3b")
+		)
+		(pin "1"
+			(uuid "ba7d70b9-93da-47a2-9b3d-37adee91f2a2")
+		)
+		(pin "3"
+			(uuid "2ef7825a-c8e9-40b5-a1b0-6334bd3e8584")
+		)
+		(instances
+			(project "HEI_Shift_Light"
+				(path "/288c8230-69eb-4ad9-929d-f4630114196f/41605f50-4a5f-4515-812e-3b7b65ea4a04"
+					(reference "Q?")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:PWR_FLAG")
 		(at 184.15 64.77 0)
 		(unit 1)
@@ -5980,82 +5954,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+3.3V")
-		(at 204.47 33.02 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "c1f97c2f-d795-481e-8176-2bfd4a75cf3a")
-		(property "Reference" "#PWR?"
-			(at 204.47 36.83 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "+3.3V"
-			(at 204.47 29.464 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 204.47 33.02 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 204.47 33.02 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 204.47 33.02 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "d4659c57-5476-4197-abe3-b9cbdc35d3bc")
-		)
-		(instances
-			(project "HEI_Shift_Light"
-				(path "/288c8230-69eb-4ad9-929d-f4630114196f/41605f50-4a5f-4515-812e-3b7b65ea4a04"
-					(reference "#PWR?")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:+5V")
 		(at 173.99 64.77 0)
 		(unit 1)
@@ -6066,7 +5964,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "c3ef0e4d-3428-4bde-bb94-b1d94bb64496")
-		(property "Reference" "#PWR033"
+		(property "Reference" "#PWR?"
 			(at 173.99 68.58 0)
 			(hide yes)
 			(show_name no)
@@ -6126,7 +6024,7 @@
 		(instances
 			(project "HEI_Shift_Light"
 				(path "/288c8230-69eb-4ad9-929d-f4630114196f/41605f50-4a5f-4515-812e-3b7b65ea4a04"
-					(reference "#PWR033")
+					(reference "#PWR?")
 					(unit 1)
 				)
 			)
@@ -6143,7 +6041,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "c5d992fb-e0dc-4756-907c-a010cf770dde")
-		(property "Reference" "#PWR032"
+		(property "Reference" "#PWR?"
 			(at 152.4 119.38 0)
 			(hide yes)
 			(show_name no)
@@ -6202,7 +6100,7 @@
 		(instances
 			(project "HEI_Shift_Light"
 				(path "/288c8230-69eb-4ad9-929d-f4630114196f/41605f50-4a5f-4515-812e-3b7b65ea4a04"
-					(reference "#PWR032")
+					(reference "#PWR?")
 					(unit 1)
 				)
 			)
@@ -6343,82 +6241,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+3.3V")
-		(at 241.3 49.53 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "d6799801-cb6f-450d-84bc-dd4853c9c669")
-		(property "Reference" "#PWR?"
-			(at 241.3 53.34 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "+3.3V"
-			(at 241.3 45.974 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 241.3 49.53 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 241.3 49.53 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 241.3 49.53 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "c6b40028-17d8-4335-8532-b92122a52155")
-		)
-		(instances
-			(project "HEI_Shift_Light"
-				(path "/288c8230-69eb-4ad9-929d-f4630114196f/41605f50-4a5f-4515-812e-3b7b65ea4a04"
-					(reference "#PWR?")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 93.98 114.3 0)
 		(unit 1)
@@ -6495,8 +6317,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Custom_Library:TP")
-		(at 163.83 64.77 0)
+		(lib_id "power:+5V")
+		(at 199.39 33.02 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -6504,19 +6326,10 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "e071f485-16f5-4753-84d5-426b235ba6a6")
-		(property "Reference" "TP?"
-			(at 163.83 60.96 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "TP"
-			(at 163.83 60.96 0)
+		(fields_autoplaced yes)
+		(uuid "dbb276da-3bdd-4cc3-8347-407ae9900278")
+		(property "Reference" "#PWR?"
+			(at 203.2 33.02 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6526,29 +6339,42 @@
 				)
 			)
 		)
-		(property "Footprint" "Custom Footprints Library:Test_Point"
-			(at 163.83 64.77 0)
+		(property "Value" "+5V"
+			(at 195.58 33.0199 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 199.39 33.02 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 1.524 1.524)
+					(size 1.27 1.27)
 				)
 			)
 		)
 		(property "Datasheet" ""
-			(at 163.83 64.77 0)
+			(at 199.39 33.02 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 1.524 1.524)
+					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Description" ""
-			(at 163.83 64.77 0)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 199.39 33.02 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6558,12 +6384,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "27c91294-9175-4462-a2b9-26cc8a653852")
+			(uuid "54dd59a0-0291-4ea6-9277-b185180f912d")
 		)
 		(instances
 			(project "HEI_Shift_Light"
 				(path "/288c8230-69eb-4ad9-929d-f4630114196f/41605f50-4a5f-4515-812e-3b7b65ea4a04"
-					(reference "TP?")
+					(reference "#PWR?")
 					(unit 1)
 				)
 			)
@@ -6656,7 +6482,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "fc364900-a8cd-4aa2-bdb3-c4496045c481")
-		(property "Reference" "#PWR034"
+		(property "Reference" "#PWR?"
 			(at 184.15 60.96 0)
 			(hide yes)
 			(show_name no)
@@ -6716,7 +6542,7 @@
 		(instances
 			(project "HEI_Shift_Light"
 				(path "/288c8230-69eb-4ad9-929d-f4630114196f/41605f50-4a5f-4515-812e-3b7b65ea4a04"
-					(reference "#PWR034")
+					(reference "#PWR?")
 					(unit 1)
 				)
 			)

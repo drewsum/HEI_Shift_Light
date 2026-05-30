@@ -4,6 +4,12 @@
 	(generator_version "10.0")
 	(uuid "45be1df5-2086-4318-acec-bde6ce4ab555")
 	(paper "A")
+	(title_block
+		(title "HEI Shift Light")
+		(date "2026-05-29")
+		(rev "A")
+		(company "Drew Maatman")
+	)
 	(lib_symbols
 		(symbol "Connector:Screw_Terminal_01x01"
 			(pin_names
@@ -2067,7 +2073,7 @@
 		)
 		(uuid "485ff48b-0f19-4e53-b68c-8a9657dff29d")
 	)
-	(text "1 pulse per sprak fire\nPulses per RPM will vary based on cylinder count"
+	(text "1 pulse per spark fire\nPulses per RPM will vary based on cylinder count"
 		(exclude_from_sim no)
 		(at 216.408 65.278 0)
 		(effects
@@ -3132,7 +3138,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "25c4a0a3-2a77-488e-b902-d571454e1ba1")
-		(property "Reference" "#PWR044"
+		(property "Reference" "#PWR?"
 			(at 168.91 76.2 0)
 			(hide yes)
 			(show_name no)
@@ -3191,7 +3197,7 @@
 		(instances
 			(project "HEI_Shift_Light"
 				(path "/288c8230-69eb-4ad9-929d-f4630114196f/3f3e3aac-043b-4713-af21-26e9e85000ef"
-					(reference "#PWR044")
+					(reference "#PWR?")
 					(unit 1)
 				)
 			)
@@ -3414,7 +3420,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "3705c9c0-7d8d-40d4-bf21-a51d2d4fa30a")
-		(property "Reference" "#PWR03"
+		(property "Reference" "#PWR?"
 			(at 87.63 107.95 0)
 			(hide yes)
 			(show_name no)
@@ -3474,7 +3480,7 @@
 		(instances
 			(project "HEI_Shift_Light"
 				(path "/288c8230-69eb-4ad9-929d-f4630114196f/3f3e3aac-043b-4713-af21-26e9e85000ef"
-					(reference "#PWR03")
+					(reference "#PWR?")
 					(unit 1)
 				)
 			)
@@ -3491,7 +3497,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "3c79dfe9-a65b-414f-b6ea-8b7c00fa7123")
-		(property "Reference" "#PWR05"
+		(property "Reference" "#PWR?"
 			(at 194.31 140.97 0)
 			(hide yes)
 			(show_name no)
@@ -3551,7 +3557,7 @@
 		(instances
 			(project "HEI_Shift_Light"
 				(path "/288c8230-69eb-4ad9-929d-f4630114196f/3f3e3aac-043b-4713-af21-26e9e85000ef"
-					(reference "#PWR05")
+					(reference "#PWR?")
 					(unit 1)
 				)
 			)
@@ -3689,7 +3695,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "42f6b7c0-d5ca-418d-befb-05081aff2929")
-		(property "Reference" "#PWR01"
+		(property "Reference" "#PWR?"
 			(at 158.75 82.55 0)
 			(hide yes)
 			(show_name no)
@@ -3749,7 +3755,7 @@
 		(instances
 			(project "HEI_Shift_Light"
 				(path "/288c8230-69eb-4ad9-929d-f4630114196f/3f3e3aac-043b-4713-af21-26e9e85000ef"
-					(reference "#PWR01")
+					(reference "#PWR?")
 					(unit 1)
 				)
 			)
@@ -4363,7 +4369,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "5ec9d161-2160-4fab-b883-5e55d6ea82f3")
-		(property "Reference" "#PWR038"
+		(property "Reference" "#PWR?"
 			(at 196.85 161.29 0)
 			(hide yes)
 			(show_name no)
@@ -4423,7 +4429,7 @@
 		(instances
 			(project "HEI_Shift_Light"
 				(path "/288c8230-69eb-4ad9-929d-f4630114196f/3f3e3aac-043b-4713-af21-26e9e85000ef"
-					(reference "#PWR038")
+					(reference "#PWR?")
 					(unit 1)
 				)
 			)
@@ -4440,7 +4446,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "612ad259-b47f-4d11-8605-1f3b9af44f7d")
-		(property "Reference" "#PWR039"
+		(property "Reference" "#PWR?"
 			(at 69.85 111.76 0)
 			(hide yes)
 			(show_name no)
@@ -4500,7 +4506,7 @@
 		(instances
 			(project "HEI_Shift_Light"
 				(path "/288c8230-69eb-4ad9-929d-f4630114196f/3f3e3aac-043b-4713-af21-26e9e85000ef"
-					(reference "#PWR039")
+					(reference "#PWR?")
 					(unit 1)
 				)
 			)
@@ -4517,7 +4523,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "63939660-9a62-469c-a987-ba2bc10e3072")
-		(property "Reference" "#PWR037"
+		(property "Reference" "#PWR?"
 			(at 137.16 86.36 0)
 			(hide yes)
 			(show_name no)
@@ -4577,7 +4583,7 @@
 		(instances
 			(project "HEI_Shift_Light"
 				(path "/288c8230-69eb-4ad9-929d-f4630114196f/3f3e3aac-043b-4713-af21-26e9e85000ef"
-					(reference "#PWR037")
+					(reference "#PWR?")
 					(unit 1)
 				)
 			)
@@ -4793,7 +4799,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "75d6be2f-952c-43fa-976d-dadcd10dbf61")
-		(property "Reference" "#PWR043"
+		(property "Reference" "#PWR?"
 			(at 168.91 66.04 0)
 			(hide yes)
 			(show_name no)
@@ -4853,7 +4859,7 @@
 		(instances
 			(project "HEI_Shift_Light"
 				(path "/288c8230-69eb-4ad9-929d-f4630114196f/3f3e3aac-043b-4713-af21-26e9e85000ef"
-					(reference "#PWR043")
+					(reference "#PWR?")
 					(unit 1)
 				)
 			)
@@ -4870,7 +4876,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "7fd60915-223b-4092-ba22-8f03ab43604d")
-		(property "Reference" "#PWR048"
+		(property "Reference" "#PWR?"
 			(at 161.29 156.21 0)
 			(hide yes)
 			(show_name no)
@@ -4929,7 +4935,7 @@
 		(instances
 			(project "HEI_Shift_Light"
 				(path "/288c8230-69eb-4ad9-929d-f4630114196f/3f3e3aac-043b-4713-af21-26e9e85000ef"
-					(reference "#PWR048")
+					(reference "#PWR?")
 					(unit 1)
 				)
 			)
@@ -5023,7 +5029,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "92fa95c8-908f-4381-a55a-82a7f9cc6861")
-		(property "Reference" "#PWR040"
+		(property "Reference" "#PWR?"
 			(at 87.63 90.17 0)
 			(hide yes)
 			(show_name no)
@@ -5083,7 +5089,7 @@
 		(instances
 			(project "HEI_Shift_Light"
 				(path "/288c8230-69eb-4ad9-929d-f4630114196f/3f3e3aac-043b-4713-af21-26e9e85000ef"
-					(reference "#PWR040")
+					(reference "#PWR?")
 					(unit 1)
 				)
 			)
@@ -5445,7 +5451,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "bd022f45-04de-4382-acc3-dfb647f5bb56")
-		(property "Reference" "#PWR06"
+		(property "Reference" "#PWR?"
 			(at 137.16 111.76 0)
 			(hide yes)
 			(show_name no)
@@ -5505,7 +5511,7 @@
 		(instances
 			(project "HEI_Shift_Light"
 				(path "/288c8230-69eb-4ad9-929d-f4630114196f/3f3e3aac-043b-4713-af21-26e9e85000ef"
-					(reference "#PWR06")
+					(reference "#PWR?")
 					(unit 1)
 				)
 			)
@@ -5648,7 +5654,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "ce1d528f-773b-4ee4-85e1-e542044c4f64")
-		(property "Reference" "#PWR047"
+		(property "Reference" "#PWR?"
 			(at 161.29 146.05 0)
 			(hide yes)
 			(show_name no)
@@ -5708,7 +5714,7 @@
 		(instances
 			(project "HEI_Shift_Light"
 				(path "/288c8230-69eb-4ad9-929d-f4630114196f/3f3e3aac-043b-4713-af21-26e9e85000ef"
-					(reference "#PWR047")
+					(reference "#PWR?")
 					(unit 1)
 				)
 			)
@@ -5725,7 +5731,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "d06b5e83-c2d7-49a0-a8e5-04de7360f2fc")
-		(property "Reference" "#PWR04"
+		(property "Reference" "#PWR?"
 			(at 109.22 111.76 0)
 			(hide yes)
 			(show_name no)
@@ -5785,7 +5791,7 @@
 		(instances
 			(project "HEI_Shift_Light"
 				(path "/288c8230-69eb-4ad9-929d-f4630114196f/3f3e3aac-043b-4713-af21-26e9e85000ef"
-					(reference "#PWR04")
+					(reference "#PWR?")
 					(unit 1)
 				)
 			)
@@ -5954,7 +5960,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "d73eb34f-8487-456a-8092-6f2502db5e56")
-		(property "Reference" "#PWR02"
+		(property "Reference" "#PWR?"
 			(at 49.53 113.03 0)
 			(hide yes)
 			(show_name no)
@@ -6014,7 +6020,7 @@
 		(instances
 			(project "HEI_Shift_Light"
 				(path "/288c8230-69eb-4ad9-929d-f4630114196f/3f3e3aac-043b-4713-af21-26e9e85000ef"
-					(reference "#PWR02")
+					(reference "#PWR?")
 					(unit 1)
 				)
 			)
@@ -6151,7 +6157,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "e59195d5-2528-4c9f-9c1b-0fa046ede429")
-		(property "Reference" "#PWR045"
+		(property "Reference" "#PWR?"
 			(at 194.31 66.04 0)
 			(hide yes)
 			(show_name no)
@@ -6211,7 +6217,7 @@
 		(instances
 			(project "HEI_Shift_Light"
 				(path "/288c8230-69eb-4ad9-929d-f4630114196f/3f3e3aac-043b-4713-af21-26e9e85000ef"
-					(reference "#PWR045")
+					(reference "#PWR?")
 					(unit 1)
 				)
 			)
@@ -6228,7 +6234,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "e69e92d9-8a76-40a8-88a5-77ef44e22528")
-		(property "Reference" "#PWR046"
+		(property "Reference" "#PWR?"
 			(at 194.31 76.2 0)
 			(hide yes)
 			(show_name no)
@@ -6287,7 +6293,7 @@
 		(instances
 			(project "HEI_Shift_Light"
 				(path "/288c8230-69eb-4ad9-929d-f4630114196f/3f3e3aac-043b-4713-af21-26e9e85000ef"
-					(reference "#PWR046")
+					(reference "#PWR?")
 					(unit 1)
 				)
 			)

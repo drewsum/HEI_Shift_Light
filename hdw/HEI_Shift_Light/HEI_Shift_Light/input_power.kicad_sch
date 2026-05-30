@@ -4,6 +4,12 @@
 	(generator_version "10.0")
 	(uuid "9489ccd3-54f8-4c67-bc96-32b80e6077ed")
 	(paper "A")
+	(title_block
+		(title "HEI Shift Light")
+		(date "2026-05-29")
+		(rev "A")
+		(company "Drew Maatman")
+	)
 	(lib_symbols
 		(symbol "Connector:Screw_Terminal_01x01"
 			(pin_names
@@ -141,6 +147,129 @@
 					(at -5.08 0 0)
 					(length 3.81)
 					(name "Pin_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Connector:TestPoint"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.762)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "TP"
+				(at 0 6.858 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "TestPoint"
+				(at 0 5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 5.08 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 5.08 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "test point"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "test point tp"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "Pin* Test*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "TestPoint_0_1"
+				(circle
+					(center 0 3.302)
+					(radius 0.762)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "TestPoint_1_1"
+				(pin passive line
+					(at 0 0 90)
+					(length 2.54)
+					(name "1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2043,6 +2172,16 @@
 	)
 	(wire
 		(pts
+			(xy 49.53 121.92) (xy 49.53 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "29600d0a-aeb3-40be-9449-e715987a4e7a")
+	)
+	(wire
+		(pts
 			(xy 203.2 95.25) (xy 217.17 95.25)
 		)
 		(stroke
@@ -2170,6 +2309,16 @@
 			(type default)
 		)
 		(uuid "8d624b38-982f-47ed-a1d5-8f9b9a9a3875")
+	)
+	(wire
+		(pts
+			(xy 203.2 69.85) (xy 203.2 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9068163a-67e7-481e-8518-867eba79cc22")
 	)
 	(wire
 		(pts
@@ -2683,7 +2832,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Inductor_SMD:L_Vishay_IHLP-2020"
 			(at 71.12 71.12 0)
 			(hide yes)
 			(show_name no)
@@ -2716,7 +2865,7 @@
 				)
 			)
 		)
-		(property "display_footprint" "Foot"
+		(property "display_footprint" "2020"
 			(at 71.12 67.31 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2726,7 +2875,7 @@
 				)
 			)
 		)
-		(property "Ampacity" "A"
+		(property "Ampacity" "2.8A"
 			(at 71.12 64.77 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2736,8 +2885,19 @@
 				)
 			)
 		)
-		(property "Tolerance" "Tol"
+		(property "Tolerance" "20%"
 			(at 71.12 62.23 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digi-Key PN" "541-IHLP2020CZER100M8ACT-ND"
+			(at 71.12 71.12 90)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2756,6 +2916,83 @@
 			(project "HEI_Shift_Light"
 				(path "/288c8230-69eb-4ad9-929d-f4630114196f/eeb602ee-2702-41ca-b272-6ee3ac7088d6"
 					(reference "L?")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 203.2 69.85 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1a589c6a-b258-42dc-a051-2118ae96d5f2")
+		(property "Reference" "TP?"
+			(at 203.2 60.96 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "VIN"
+			(at 203.2 63.5 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+			(at 208.28 69.85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 208.28 69.85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 203.2 69.85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "7b8efaea-5a0e-4039-98e7-7caa05841875")
+		)
+		(instances
+			(project "HEI_Shift_Light"
+				(path "/288c8230-69eb-4ad9-929d-f4630114196f/eeb602ee-2702-41ca-b272-6ee3ac7088d6"
+					(reference "TP?")
 					(unit 1)
 				)
 			)
@@ -3073,7 +3310,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "34c1b0e8-6fbb-4bd3-9f8f-9096ca4a41bb")
-		(property "Reference" "#PWR08"
+		(property "Reference" "#PWR?"
 			(at 179.07 123.19 0)
 			(hide yes)
 			(show_name no)
@@ -3133,7 +3370,7 @@
 		(instances
 			(project "HEI_Shift_Light"
 				(path "/288c8230-69eb-4ad9-929d-f4630114196f/eeb602ee-2702-41ca-b272-6ee3ac7088d6"
-					(reference "#PWR08")
+					(reference "#PWR?")
 					(unit 1)
 				)
 			)
@@ -3273,7 +3510,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "54df40e5-900c-43c0-8b36-cb520bb30260")
-		(property "Reference" "#FLG01"
+		(property "Reference" "#FLG?"
 			(at 59.69 66.675 0)
 			(hide yes)
 			(show_name no)
@@ -3333,7 +3570,7 @@
 		(instances
 			(project "HEI_Shift_Light"
 				(path "/288c8230-69eb-4ad9-929d-f4630114196f/eeb602ee-2702-41ca-b272-6ee3ac7088d6"
-					(reference "#FLG01")
+					(reference "#FLG?")
 					(unit 1)
 				)
 			)
@@ -3540,130 +3777,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Custom_Library:C_Custom")
-		(at 218.44 77.47 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "5a85bb94-ddfb-482d-872e-4ecfa02b8dc6")
-		(property "Reference" "C?"
-			(at 219.075 74.93 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" ""
-			(at 219.075 80.01 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 219.4052 81.28 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 219.075 74.93 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 218.44 77.47 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "display_footprint" "Foot"
-			(at 214.63 74.93 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Voltage" "50V"
-			(at 214.63 77.47 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Dielectric" "X7R"
-			(at 214.63 80.01 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Digi-Key PN" ""
-			(at 229.235 64.77 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "208fb59a-097e-474a-8d9b-ad1dd9469494")
-		)
-		(pin "2"
-			(uuid "85e28f28-8a97-4625-b697-dde19eb0f974")
-		)
-		(instances
-			(project "HEI_Shift_Light"
-				(path "/288c8230-69eb-4ad9-929d-f4630114196f/eeb602ee-2702-41ca-b272-6ee3ac7088d6"
-					(reference "C?")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:PWR_FLAG")
 		(at 62.23 125.73 180)
 		(unit 1)
@@ -3674,7 +3787,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "5c89ec88-f654-458c-a542-844f583bd94a")
-		(property "Reference" "#FLG02"
+		(property "Reference" "#FLG?"
 			(at 62.23 127.635 0)
 			(hide yes)
 			(show_name no)
@@ -3734,7 +3847,7 @@
 		(instances
 			(project "HEI_Shift_Light"
 				(path "/288c8230-69eb-4ad9-929d-f4630114196f/eeb602ee-2702-41ca-b272-6ee3ac7088d6"
-					(reference "#FLG02")
+					(reference "#FLG?")
 					(unit 1)
 				)
 			)
@@ -3988,6 +4101,130 @@
 		)
 	)
 	(symbol
+		(lib_id "Custom_Library:C_Custom")
+		(at 218.44 77.47 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "846592e4-8cc4-41e6-bd70-3242c5294a4d")
+		(property "Reference" "C?"
+			(at 219.075 74.93 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10uF"
+			(at 219.075 80.01 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitors_SMD:C_1206"
+			(at 219.4052 81.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 219.075 74.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 218.44 77.47 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "display_footprint" "1206"
+			(at 214.63 74.93 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Voltage" "25V"
+			(at 214.63 77.47 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Dielectric" "X7R"
+			(at 214.63 80.01 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Digi-Key PN" "1276-7031-1-ND"
+			(at 229.235 64.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "b4ef2679-1d94-43b1-8806-92c1181da665")
+		)
+		(pin "2"
+			(uuid "c835d32f-4faf-4a32-b691-7478500eba28")
+		)
+		(instances
+			(project "HEI_Shift_Light"
+				(path "/288c8230-69eb-4ad9-929d-f4630114196f/eeb602ee-2702-41ca-b272-6ee3ac7088d6"
+					(reference "C?")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Custom Library:CP_Tant_Custom")
 		(at 85.09 77.47 0)
 		(unit 1)
@@ -4020,7 +4257,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_Tantalum_SMD:CP_EIA-7343-43_Kemet-X"
 			(at 86.0552 81.28 0)
 			(hide yes)
 			(show_name no)
@@ -4053,7 +4290,7 @@
 				)
 			)
 		)
-		(property "display_footprint" "Foot"
+		(property "display_footprint" "7343"
 			(at 81.28 74.93 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4064,7 +4301,7 @@
 				(justify right)
 			)
 		)
-		(property "Voltage" "50V"
+		(property "Voltage" "25V"
 			(at 81.28 77.47 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4075,7 +4312,7 @@
 				(justify right)
 			)
 		)
-		(property "Tolerance" "Tol"
+		(property "Tolerance" "20%"
 			(at 81.28 80.01 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4084,6 +4321,17 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+			)
+		)
+		(property "Digi-Key PN" "399-13127-1-ND"
+			(at 85.09 77.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "2"
@@ -4112,7 +4360,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "8a34f008-122c-4bd6-ad05-26597ee9b5ba")
-		(property "Reference" "#PWR07"
+		(property "Reference" "#PWR?"
 			(at 59.69 90.17 0)
 			(hide yes)
 			(show_name no)
@@ -4172,7 +4420,7 @@
 		(instances
 			(project "HEI_Shift_Light"
 				(path "/288c8230-69eb-4ad9-929d-f4630114196f/eeb602ee-2702-41ca-b272-6ee3ac7088d6"
-					(reference "#PWR07")
+					(reference "#PWR?")
 					(unit 1)
 				)
 			)
@@ -4189,7 +4437,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "94ad7059-a5dc-4b4b-bd58-a2f6e50f7584")
-		(property "Reference" "#PWR012"
+		(property "Reference" "#PWR?"
 			(at 218.44 72.39 0)
 			(hide yes)
 			(show_name no)
@@ -4247,7 +4495,7 @@
 		(instances
 			(project "HEI_Shift_Light"
 				(path "/288c8230-69eb-4ad9-929d-f4630114196f/eeb602ee-2702-41ca-b272-6ee3ac7088d6"
-					(reference "#PWR012")
+					(reference "#PWR?")
 					(unit 1)
 				)
 			)
@@ -4264,7 +4512,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "aa2c5d4c-0f0b-4ba8-a972-9d463ef0adcf")
-		(property "Reference" "#PWR014"
+		(property "Reference" "#PWR?"
 			(at 49.53 132.08 0)
 			(hide yes)
 			(show_name no)
@@ -4324,7 +4572,7 @@
 		(instances
 			(project "HEI_Shift_Light"
 				(path "/288c8230-69eb-4ad9-929d-f4630114196f/eeb602ee-2702-41ca-b272-6ee3ac7088d6"
-					(reference "#PWR014")
+					(reference "#PWR?")
 					(unit 1)
 				)
 			)
@@ -4341,7 +4589,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "ad3a9b60-a533-4775-9d49-89d1bb719e85")
-		(property "Reference" "#PWR013"
+		(property "Reference" "#PWR?"
 			(at 119.38 92.71 0)
 			(hide yes)
 			(show_name no)
@@ -4401,7 +4649,7 @@
 		(instances
 			(project "HEI_Shift_Light"
 				(path "/288c8230-69eb-4ad9-929d-f4630114196f/eeb602ee-2702-41ca-b272-6ee3ac7088d6"
-					(reference "#PWR013")
+					(reference "#PWR?")
 					(unit 1)
 				)
 			)
@@ -4418,7 +4666,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "b21cb925-d482-477d-aba2-dcd32ecc4de8")
-		(property "Reference" "#PWR011"
+		(property "Reference" "#PWR?"
 			(at 203.2 111.76 0)
 			(hide yes)
 			(show_name no)
@@ -4478,7 +4726,83 @@
 		(instances
 			(project "HEI_Shift_Light"
 				(path "/288c8230-69eb-4ad9-929d-f4630114196f/eeb602ee-2702-41ca-b272-6ee3ac7088d6"
-					(reference "#PWR011")
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 49.53 121.92 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "cb48e395-5eaf-43f9-afd8-2b260211ec9d")
+		(property "Reference" "TP?"
+			(at 49.53 115.062 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 49.53 116.84 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Horizontal"
+			(at 54.61 121.92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 54.61 121.92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 49.53 121.92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "13739eaf-63d4-482e-9ba8-7f748a3d568d")
+		)
+		(instances
+			(project "HEI_Shift_Light"
+				(path "/288c8230-69eb-4ad9-929d-f4630114196f/eeb602ee-2702-41ca-b272-6ee3ac7088d6"
+					(reference "TP?")
 					(unit 1)
 				)
 			)
@@ -4618,7 +4942,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "e4ed4ce2-5c62-4ccc-9d44-1c04fd0608c4")
-		(property "Reference" "#PWR09"
+		(property "Reference" "#PWR?"
 			(at 85.09 87.63 0)
 			(hide yes)
 			(show_name no)
@@ -4678,7 +5002,7 @@
 		(instances
 			(project "HEI_Shift_Light"
 				(path "/288c8230-69eb-4ad9-929d-f4630114196f/eeb602ee-2702-41ca-b272-6ee3ac7088d6"
-					(reference "#PWR09")
+					(reference "#PWR?")
 					(unit 1)
 				)
 			)
@@ -4818,7 +5142,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "f19daa55-98c5-494c-8636-b659c4e787b2")
-		(property "Reference" "#PWR010"
+		(property "Reference" "#PWR?"
 			(at 218.44 87.63 0)
 			(hide yes)
 			(show_name no)
@@ -4878,7 +5202,7 @@
 		(instances
 			(project "HEI_Shift_Light"
 				(path "/288c8230-69eb-4ad9-929d-f4630114196f/eeb602ee-2702-41ca-b272-6ee3ac7088d6"
-					(reference "#PWR010")
+					(reference "#PWR?")
 					(unit 1)
 				)
 			)
@@ -5020,7 +5344,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f85433ec-ac1f-46f8-83b6-37b8ad05a1d8")
-		(property "Reference" "U1"
+		(property "Reference" "U?"
 			(at 156.21 63.5 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5111,7 +5435,7 @@
 		(instances
 			(project "HEI_Shift_Light"
 				(path "/288c8230-69eb-4ad9-929d-f4630114196f/eeb602ee-2702-41ca-b272-6ee3ac7088d6"
-					(reference "U1")
+					(reference "U?")
 					(unit 1)
 				)
 			)

@@ -4,6 +4,12 @@
 	(generator_version "10.0")
 	(uuid "5114706b-83e6-43c3-9b1d-6d54a41f48ed")
 	(paper "A")
+	(title_block
+		(title "HEI Shift Light")
+		(date "2026-05-29")
+		(rev "A")
+		(company "Drew Maatman")
+	)
 	(lib_symbols
 		(symbol "Connector:TestPoint"
 			(pin_numbers
@@ -3394,7 +3400,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "15cee878-38fb-4be9-8379-b528ab204f52")
-		(property "Reference" "#PWR041"
+		(property "Reference" "#PWR?"
 			(at 217.17 53.34 0)
 			(hide yes)
 			(show_name no)
@@ -3454,7 +3460,7 @@
 		(instances
 			(project "HEI_Shift_Light"
 				(path "/288c8230-69eb-4ad9-929d-f4630114196f/5c9f220d-57b1-4b37-ac12-25339229b122"
-					(reference "#PWR041")
+					(reference "#PWR?")
 					(unit 1)
 				)
 			)
@@ -3471,7 +3477,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "1d9fa49e-3cc9-46d0-b671-bd41479cfd23")
-		(property "Reference" "#PWR027"
+		(property "Reference" "#PWR?"
 			(at 118.11 38.1 0)
 			(hide yes)
 			(show_name no)
@@ -3531,7 +3537,7 @@
 		(instances
 			(project "HEI_Shift_Light"
 				(path "/288c8230-69eb-4ad9-929d-f4630114196f/5c9f220d-57b1-4b37-ac12-25339229b122"
-					(reference "#PWR027")
+					(reference "#PWR?")
 					(unit 1)
 				)
 			)
@@ -3636,7 +3642,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "TestPoint"
+		(property "Value" "OPA1OUT"
 			(at 212.09 142.2399 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3703,7 +3709,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "2995eb7f-855e-47a2-bc51-d034ab430886")
-		(property "Reference" "#PWR031"
+		(property "Reference" "#PWR?"
 			(at 119.38 172.72 0)
 			(hide yes)
 			(show_name no)
@@ -3763,7 +3769,7 @@
 		(instances
 			(project "HEI_Shift_Light"
 				(path "/288c8230-69eb-4ad9-929d-f4630114196f/5c9f220d-57b1-4b37-ac12-25339229b122"
-					(reference "#PWR031")
+					(reference "#PWR?")
 					(unit 1)
 				)
 			)
@@ -4208,7 +4214,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "TestPoint"
+		(property "Value" "C2OUT"
 			(at 212.09 137.1599 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4275,7 +4281,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "54ae15a5-4ed0-4347-bbfc-df083a9ae2ba")
-		(property "Reference" "#PWR042"
+		(property "Reference" "#PWR?"
 			(at 231.14 53.34 0)
 			(hide yes)
 			(show_name no)
@@ -4335,7 +4341,7 @@
 		(instances
 			(project "HEI_Shift_Light"
 				(path "/288c8230-69eb-4ad9-929d-f4630114196f/5c9f220d-57b1-4b37-ac12-25339229b122"
-					(reference "#PWR042")
+					(reference "#PWR?")
 					(unit 1)
 				)
 			)
@@ -4352,7 +4358,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "6452cd79-96f1-45fe-8830-51ca76f9b1a9")
-		(property "Reference" "#PWR030"
+		(property "Reference" "#PWR?"
 			(at 99.06 186.69 0)
 			(hide yes)
 			(show_name no)
@@ -4412,7 +4418,7 @@
 		(instances
 			(project "HEI_Shift_Light"
 				(path "/288c8230-69eb-4ad9-929d-f4630114196f/5c9f220d-57b1-4b37-ac12-25339229b122"
-					(reference "#PWR030")
+					(reference "#PWR?")
 					(unit 1)
 				)
 			)
@@ -4706,7 +4712,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "a8dda4ba-e81e-42cf-af20-68c469461dd1")
-		(property "Reference" "#PWR029"
+		(property "Reference" "#PWR?"
 			(at 34.29 161.29 0)
 			(hide yes)
 			(show_name no)
@@ -4766,7 +4772,7 @@
 		(instances
 			(project "HEI_Shift_Light"
 				(path "/288c8230-69eb-4ad9-929d-f4630114196f/5c9f220d-57b1-4b37-ac12-25339229b122"
-					(reference "#PWR029")
+					(reference "#PWR?")
 					(unit 1)
 				)
 			)
@@ -5373,7 +5379,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "c7363f02-67a5-42a8-928e-82e2ff793b12")
-		(property "Reference" "#PWR028"
+		(property "Reference" "#PWR?"
 			(at 143.51 38.1 0)
 			(hide yes)
 			(show_name no)
@@ -5433,7 +5439,7 @@
 		(instances
 			(project "HEI_Shift_Light"
 				(path "/288c8230-69eb-4ad9-929d-f4630114196f/5c9f220d-57b1-4b37-ac12-25339229b122"
-					(reference "#PWR028")
+					(reference "#PWR?")
 					(unit 1)
 				)
 			)
@@ -5665,7 +5671,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "e32c817a-e64b-4c54-a830-c9acf3414ec5")
-		(property "Reference" "#PWR026"
+		(property "Reference" "#PWR?"
 			(at 110.49 63.5 0)
 			(hide yes)
 			(show_name no)
@@ -5725,7 +5731,7 @@
 		(instances
 			(project "HEI_Shift_Light"
 				(path "/288c8230-69eb-4ad9-929d-f4630114196f/5c9f220d-57b1-4b37-ac12-25339229b122"
-					(reference "#PWR026")
+					(reference "#PWR?")
 					(unit 1)
 				)
 			)
@@ -5754,7 +5760,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "TestPoint"
+		(property "Value" "CLKR"
 			(at 212.09 147.3199 90)
 			(show_name no)
 			(do_not_autoplace no)

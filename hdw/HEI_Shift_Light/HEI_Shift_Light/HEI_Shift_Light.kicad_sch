@@ -4,6 +4,12 @@
 	(generator_version "10.0")
 	(uuid "288c8230-69eb-4ad9-929d-f4630114196f")
 	(paper "A")
+	(title_block
+		(title "HEI Shift Light")
+		(date "2026-05-29")
+		(rev "A")
+		(company "Drew Maatman")
+	)
 	(lib_symbols)
 	(sheet
 		(at 36.83 68.58)
