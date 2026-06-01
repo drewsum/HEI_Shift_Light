@@ -3236,7 +3236,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "01c52acc-cdef-4e80-81e5-207b7cf95fce")
-		(property "Reference" "R?"
+		(property "Reference" "R303"
 			(at 150.368 109.22 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3257,7 +3257,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistors_SMD:R_0603"
+		(property "Footprint" "Resistors_SMD:R_0402"
 			(at 152.4 109.22 0)
 			(hide yes)
 			(show_name no)
@@ -3289,7 +3289,7 @@
 				)
 			)
 		)
-		(property "display_footprint" "0603"
+		(property "display_footprint" "0402"
 			(at 154.94 107.188 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3311,7 +3311,7 @@
 				(justify left)
 			)
 		)
-		(property "Wattage" "1/10W"
+		(property "Wattage" "1/16W"
 			(at 155.194 111.252 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3322,7 +3322,7 @@
 				(justify left)
 			)
 		)
-		(property "Digi-Key PN" ""
+		(property "Digi-Key PN" "541-0.0JCT-ND"
 			(at 152.4 109.22 0)
 			(hide yes)
 			(show_name no)
@@ -3342,7 +3342,7 @@
 		(instances
 			(project "HEI_Shift_Light"
 				(path "/288c8230-69eb-4ad9-929d-f4630114196f/41605f50-4a5f-4515-812e-3b7b65ea4a04"
-					(reference "R?")
+					(reference "R303")
 					(unit 1)
 				)
 			)
@@ -3359,7 +3359,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "06af6c6a-e638-4f63-b9c3-daab3e8d7060")
-		(property "Reference" "C?"
+		(property "Reference" "C303"
 			(at 103.505 62.23 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3381,7 +3381,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitors_SMD:C_0603"
+		(property "Footprint" "Capacitors_SMD:C_0402"
 			(at 103.8352 68.58 0)
 			(hide yes)
 			(show_name no)
@@ -3413,7 +3413,7 @@
 				)
 			)
 		)
-		(property "display_footprint" "0603"
+		(property "display_footprint" "0402"
 			(at 99.06 62.23 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3466,7 +3466,7 @@
 		(instances
 			(project "HEI_Shift_Light"
 				(path "/288c8230-69eb-4ad9-929d-f4630114196f/41605f50-4a5f-4515-812e-3b7b65ea4a04"
-					(reference "C?")
+					(reference "C303")
 					(unit 1)
 				)
 			)
@@ -3483,7 +3483,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "09d8b529-9ab7-4c6d-87b9-cba5a13f2ab1")
-		(property "Reference" "#PWR?"
+		(property "Reference" "#PWR0318"
 			(at 241.3 66.04 0)
 			(hide yes)
 			(show_name no)
@@ -3542,7 +3542,7 @@
 		(instances
 			(project "HEI_Shift_Light"
 				(path "/288c8230-69eb-4ad9-929d-f4630114196f/41605f50-4a5f-4515-812e-3b7b65ea4a04"
-					(reference "#PWR?")
+					(reference "#PWR0318")
 					(unit 1)
 				)
 			)
@@ -3559,7 +3559,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "1768ee79-8da9-4c7f-b57f-1bfca849cb8e")
-		(property "Reference" "#PWR?"
+		(property "Reference" "#PWR0310"
 			(at 163.83 83.82 0)
 			(hide yes)
 			(show_name no)
@@ -3618,7 +3618,7 @@
 		(instances
 			(project "HEI_Shift_Light"
 				(path "/288c8230-69eb-4ad9-929d-f4630114196f/41605f50-4a5f-4515-812e-3b7b65ea4a04"
-					(reference "#PWR?")
+					(reference "#PWR0310")
 					(unit 1)
 				)
 			)
@@ -3635,7 +3635,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "188c7517-9cfd-4416-ae61-bfe413119bd2")
-		(property "Reference" "C?"
+		(property "Reference" "C304"
 			(at 164.465 71.12 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3657,7 +3657,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitors_SMD:C_1206"
 			(at 164.7952 77.47 0)
 			(hide yes)
 			(show_name no)
@@ -3742,7 +3742,7 @@
 		(instances
 			(project "HEI_Shift_Light"
 				(path "/288c8230-69eb-4ad9-929d-f4630114196f/41605f50-4a5f-4515-812e-3b7b65ea4a04"
-					(reference "C?")
+					(reference "C304")
 					(unit 1)
 				)
 			)
@@ -3759,7 +3759,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "1a0adfef-63ce-4f4f-9e8d-6cfa4d553655")
-		(property "Reference" "#PWR?"
+		(property "Reference" "#PWR0316"
 			(at 222.25 73.66 0)
 			(hide yes)
 			(show_name no)
@@ -3818,7 +3818,7 @@
 		(instances
 			(project "HEI_Shift_Light"
 				(path "/288c8230-69eb-4ad9-929d-f4630114196f/41605f50-4a5f-4515-812e-3b7b65ea4a04"
-					(reference "#PWR?")
+					(reference "#PWR0316")
 					(unit 1)
 				)
 			)
@@ -3836,7 +3836,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1ea60199-f882-41fc-b00c-62ba7457f5f0")
-		(property "Reference" "TP?"
+		(property "Reference" "TP301"
 			(at 163.83 55.88 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3895,7 +3895,7 @@
 		(instances
 			(project "HEI_Shift_Light"
 				(path "/288c8230-69eb-4ad9-929d-f4630114196f/41605f50-4a5f-4515-812e-3b7b65ea4a04"
-					(reference "TP?")
+					(reference "TP301")
 					(unit 1)
 				)
 			)
@@ -3913,7 +3913,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "22ec844e-749e-4f40-ac6d-59f5f2f37dbb")
-		(property "Reference" "R?"
+		(property "Reference" "R307"
 			(at 239.522 42.418 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3934,7 +3934,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistors_SMD:R_0402"
 			(at 241.3 45.72 0)
 			(hide yes)
 			(show_name no)
@@ -3966,7 +3966,7 @@
 				)
 			)
 		)
-		(property "display_footprint" "0603"
+		(property "display_footprint" "0402"
 			(at 239.522 44.45 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3988,7 +3988,7 @@
 				(justify left)
 			)
 		)
-		(property "Wattage" "1/10W"
+		(property "Wattage" "1/16W"
 			(at 239.522 49.022 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3999,7 +3999,7 @@
 				(justify left)
 			)
 		)
-		(property "Digi-Key PN" ""
+		(property "Digi-Key PN" "541-4004-1-ND"
 			(at 241.3 45.72 0)
 			(hide yes)
 			(show_name no)
@@ -4019,7 +4019,7 @@
 		(instances
 			(project "HEI_Shift_Light"
 				(path "/288c8230-69eb-4ad9-929d-f4630114196f/41605f50-4a5f-4515-812e-3b7b65ea4a04"
-					(reference "R?")
+					(reference "R307")
 					(unit 1)
 				)
 			)
@@ -4036,7 +4036,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "33df6a75-c70c-4a0b-bf31-be9e2b46cc65")
-		(property "Reference" "R?"
+		(property "Reference" "R302"
 			(at 60.96 26.67 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4056,7 +4056,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistors_SMD:R_0603"
+		(property "Footprint" "Resistors_SMD:R_0402"
 			(at 60.96 29.21 0)
 			(hide yes)
 			(show_name no)
@@ -4088,7 +4088,7 @@
 				)
 			)
 		)
-		(property "Digi-Key PN" "YAG2321CT-ND"
+		(property "Digi-Key PN" "541-10.0LCT-ND"
 			(at 71.12 36.83 0)
 			(hide yes)
 			(show_name no)
@@ -4099,7 +4099,7 @@
 				)
 			)
 		)
-		(property "display_footprint" "0603"
+		(property "display_footprint" "0402"
 			(at 60.96 31.75 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4119,7 +4119,7 @@
 				)
 			)
 		)
-		(property "Wattage" "1/10W"
+		(property "Wattage" "1/16W"
 			(at 60.96 36.83 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4138,7 +4138,7 @@
 		(instances
 			(project "HEI_Shift_Light"
 				(path "/288c8230-69eb-4ad9-929d-f4630114196f/41605f50-4a5f-4515-812e-3b7b65ea4a04"
-					(reference "R?")
+					(reference "R302")
 					(unit 1)
 				)
 			)
@@ -4155,7 +4155,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "3688edb5-9481-48ff-a1ba-8924b1c0f274")
-		(property "Reference" "#PWR?"
+		(property "Reference" "#PWR0317"
 			(at 241.3 45.72 0)
 			(hide yes)
 			(show_name no)
@@ -4215,7 +4215,7 @@
 		(instances
 			(project "HEI_Shift_Light"
 				(path "/288c8230-69eb-4ad9-929d-f4630114196f/41605f50-4a5f-4515-812e-3b7b65ea4a04"
-					(reference "#PWR?")
+					(reference "#PWR0317")
 					(unit 1)
 				)
 			)
@@ -4232,7 +4232,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "3d725615-6da0-41c3-bf24-9a8e64c5847a")
-		(property "Reference" "#PWR?"
+		(property "Reference" "#PWR0303"
 			(at 58.42 86.36 0)
 			(hide yes)
 			(show_name no)
@@ -4292,7 +4292,7 @@
 		(instances
 			(project "HEI_Shift_Light"
 				(path "/288c8230-69eb-4ad9-929d-f4630114196f/41605f50-4a5f-4515-812e-3b7b65ea4a04"
-					(reference "#PWR?")
+					(reference "#PWR0303")
 					(unit 1)
 				)
 			)
@@ -4310,7 +4310,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4a0c8afa-7a89-4afe-85dc-0a7edaccba89")
-		(property "Reference" "Q?"
+		(property "Reference" "Q301"
 			(at 226.06 60.9599 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4368,6 +4368,9 @@
 				)
 			)
 		)
+    (property "Digi-Key PN" "BSS214NWH6327XTSA1CT-ND" (at 219.71 62.23 0)
+      (effects (font (size 1.27 1.27)) (hide yes))
+    )
 		(pin "2"
 			(uuid "d3697031-2efd-47ab-a538-8b9dc36cb577")
 		)
@@ -4380,7 +4383,7 @@
 		(instances
 			(project "HEI_Shift_Light"
 				(path "/288c8230-69eb-4ad9-929d-f4630114196f/41605f50-4a5f-4515-812e-3b7b65ea4a04"
-					(reference "Q?")
+					(reference "Q301")
 					(unit 1)
 				)
 			)
@@ -4397,7 +4400,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "4f9d0614-57ca-4757-a72f-32135ea14715")
-		(property "Reference" "D?"
+		(property "Reference" "D301"
 			(at 207.518 36.83 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4453,6 +4456,9 @@
 				)
 			)
 		)
+    (property "Digi-Key PN" "568-1615-1-ND" (at 204.47 33.02 0)
+      (effects (font (size 1.27 1.27)) (hide yes))
+    )
 		(pin "1"
 			(uuid "0f944297-d6b9-4826-a46d-85c365c87f3c")
 		)
@@ -4465,7 +4471,7 @@
 		(instances
 			(project "HEI_Shift_Light"
 				(path "/288c8230-69eb-4ad9-929d-f4630114196f/41605f50-4a5f-4515-812e-3b7b65ea4a04"
-					(reference "D?")
+					(reference "D301")
 					(unit 1)
 				)
 			)
@@ -4482,7 +4488,7 @@
 		(in_pos_files yes)
 		(dnp yes)
 		(uuid "5130d882-525f-4d71-be69-49929d40ed6a")
-		(property "Reference" "R?"
+		(property "Reference" "R304"
 			(at 171.958 86.36 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4503,7 +4509,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistors_SMD:R_0603"
+		(property "Footprint" "Resistors_SMD:R_0402"
 			(at 173.99 86.36 0)
 			(hide yes)
 			(show_name no)
@@ -4535,7 +4541,7 @@
 				)
 			)
 		)
-		(property "display_footprint" "0603"
+		(property "display_footprint" "0402"
 			(at 176.53 84.328 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4557,7 +4563,7 @@
 				(justify left)
 			)
 		)
-		(property "Wattage" "1/10W"
+		(property "Wattage" "1/16W"
 			(at 176.784 88.392 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4568,7 +4574,7 @@
 				(justify left)
 			)
 		)
-		(property "Digi-Key PN" "311-562KHRCT-ND"
+		(property "Digi-Key PN" "541-562KLCT-ND"
 			(at 173.99 86.36 0)
 			(hide yes)
 			(show_name no)
@@ -4588,7 +4594,7 @@
 		(instances
 			(project "HEI_Shift_Light"
 				(path "/288c8230-69eb-4ad9-929d-f4630114196f/41605f50-4a5f-4515-812e-3b7b65ea4a04"
-					(reference "R?")
+					(reference "R304")
 					(unit 1)
 				)
 			)
@@ -4605,7 +4611,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "5bcf8e3a-06cf-4202-9088-b5a57ba5176b")
-		(property "Reference" "#PWR?"
+		(property "Reference" "#PWR0301"
 			(at 58.42 58.42 0)
 			(hide yes)
 			(show_name no)
@@ -4663,7 +4669,7 @@
 		(instances
 			(project "HEI_Shift_Light"
 				(path "/288c8230-69eb-4ad9-929d-f4630114196f/41605f50-4a5f-4515-812e-3b7b65ea4a04"
-					(reference "#PWR?")
+					(reference "#PWR0301")
 					(unit 1)
 				)
 			)
@@ -4680,7 +4686,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "7857021c-bfe1-4dd5-8f09-83463fd7833f")
-		(property "Reference" "C?"
+		(property "Reference" "C302"
 			(at 94.615 107.95 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4702,7 +4708,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitors_SMD:C_0603"
+		(property "Footprint" "Capacitors_SMD:C_0402"
 			(at 94.9452 114.3 0)
 			(hide yes)
 			(show_name no)
@@ -4734,7 +4740,7 @@
 				)
 			)
 		)
-		(property "display_footprint" "0603"
+		(property "display_footprint" "0402"
 			(at 90.17 107.95 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4787,7 +4793,7 @@
 		(instances
 			(project "HEI_Shift_Light"
 				(path "/288c8230-69eb-4ad9-929d-f4630114196f/41605f50-4a5f-4515-812e-3b7b65ea4a04"
-					(reference "C?")
+					(reference "C302")
 					(unit 1)
 				)
 			)
@@ -4804,7 +4810,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "7a1d0cbb-22e6-4aa7-b66b-b5671331069f")
-		(property "Reference" "R?"
+		(property "Reference" "R306"
 			(at 220.218 49.53 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4825,7 +4831,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistors_SMD:R_0603"
+		(property "Footprint" "Resistors_SMD:R_0402"
 			(at 222.25 49.53 0)
 			(hide yes)
 			(show_name no)
@@ -4857,7 +4863,7 @@
 				)
 			)
 		)
-		(property "display_footprint" "0603"
+		(property "display_footprint" "0402"
 			(at 224.79 47.498 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4879,7 +4885,7 @@
 				(justify left)
 			)
 		)
-		(property "Wattage" "1/10W"
+		(property "Wattage" "1/16W"
 			(at 225.044 51.562 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4890,7 +4896,7 @@
 				(justify left)
 			)
 		)
-		(property "Digi-Key PN" "YAG2321CT-ND"
+		(property "Digi-Key PN" "541-10.0KLCT-ND"
 			(at 229.87 39.37 0)
 			(hide yes)
 			(show_name no)
@@ -4910,7 +4916,7 @@
 		(instances
 			(project "HEI_Shift_Light"
 				(path "/288c8230-69eb-4ad9-929d-f4630114196f/41605f50-4a5f-4515-812e-3b7b65ea4a04"
-					(reference "R?")
+					(reference "R306")
 					(unit 1)
 				)
 			)
@@ -4927,7 +4933,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "7a8ba219-b2a4-4170-8712-d7c30310861b")
-		(property "Reference" "#PWR?"
+		(property "Reference" "#PWR0312"
 			(at 173.99 119.38 0)
 			(hide yes)
 			(show_name no)
@@ -4986,7 +4992,7 @@
 		(instances
 			(project "HEI_Shift_Light"
 				(path "/288c8230-69eb-4ad9-929d-f4630114196f/41605f50-4a5f-4515-812e-3b7b65ea4a04"
-					(reference "#PWR?")
+					(reference "#PWR0312")
 					(unit 1)
 				)
 			)
@@ -5003,7 +5009,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "829063ba-f4d7-42ae-89f6-486df5524832")
-		(property "Reference" "#PWR?"
+		(property "Reference" "#PWR0305"
 			(at 102.87 74.93 0)
 			(hide yes)
 			(show_name no)
@@ -5062,7 +5068,7 @@
 		(instances
 			(project "HEI_Shift_Light"
 				(path "/288c8230-69eb-4ad9-929d-f4630114196f/41605f50-4a5f-4515-812e-3b7b65ea4a04"
-					(reference "#PWR?")
+					(reference "#PWR0305")
 					(unit 1)
 				)
 			)
@@ -5079,7 +5085,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "85518db4-d13f-4fb5-8906-de36dd0f67b6")
-		(property "Reference" "#PWR?"
+		(property "Reference" "#PWR0315"
 			(at 204.47 59.69 0)
 			(hide yes)
 			(show_name no)
@@ -5138,7 +5144,7 @@
 		(instances
 			(project "HEI_Shift_Light"
 				(path "/288c8230-69eb-4ad9-929d-f4630114196f/41605f50-4a5f-4515-812e-3b7b65ea4a04"
-					(reference "#PWR?")
+					(reference "#PWR0315")
 					(unit 1)
 				)
 			)
@@ -5155,7 +5161,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "8a39c0d2-ed80-4e41-a3d8-d991efa35a6a")
-		(property "Reference" "L?"
+		(property "Reference" "L301"
 			(at 148.59 68.58 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5257,7 +5263,7 @@
 		(instances
 			(project "HEI_Shift_Light"
 				(path "/288c8230-69eb-4ad9-929d-f4630114196f/41605f50-4a5f-4515-812e-3b7b65ea4a04"
-					(reference "L?")
+					(reference "L301")
 					(unit 1)
 				)
 			)
@@ -5275,7 +5281,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8a772ec5-6c88-436a-afcd-560323811bd4")
-		(property "Reference" "#PWR?"
+		(property "Reference" "#PWR0308"
 			(at 133.35 77.47 0)
 			(hide yes)
 			(show_name no)
@@ -5336,7 +5342,7 @@
 		(instances
 			(project "HEI_Shift_Light"
 				(path "/288c8230-69eb-4ad9-929d-f4630114196f/41605f50-4a5f-4515-812e-3b7b65ea4a04"
-					(reference "#PWR?")
+					(reference "#PWR0308")
 					(unit 1)
 				)
 			)
@@ -5353,7 +5359,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "8f03b3f0-0ccb-4397-927d-afa839994995")
-		(property "Reference" "#PWR?"
+		(property "Reference" "#PWR0302"
 			(at 58.42 74.93 0)
 			(hide yes)
 			(show_name no)
@@ -5412,7 +5418,7 @@
 		(instances
 			(project "HEI_Shift_Light"
 				(path "/288c8230-69eb-4ad9-929d-f4630114196f/41605f50-4a5f-4515-812e-3b7b65ea4a04"
-					(reference "#PWR?")
+					(reference "#PWR0302")
 					(unit 1)
 				)
 			)
@@ -5429,7 +5435,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "b36026ef-6c79-4def-8da4-8150a7a5eed3")
-		(property "Reference" "R?"
+		(property "Reference" "R301"
 			(at 56.388 86.36 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5450,7 +5456,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistors_SMD:R_0603"
+		(property "Footprint" "Resistors_SMD:R_0402"
 			(at 58.42 86.36 0)
 			(hide yes)
 			(show_name no)
@@ -5482,7 +5488,7 @@
 				)
 			)
 		)
-		(property "display_footprint" "0603"
+		(property "display_footprint" "0402"
 			(at 60.96 84.328 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5504,7 +5510,7 @@
 				(justify left)
 			)
 		)
-		(property "Wattage" "1/10W"
+		(property "Wattage" "1/16W"
 			(at 61.214 88.392 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5515,7 +5521,7 @@
 				(justify left)
 			)
 		)
-		(property "Digi-Key PN" "YAG2321CT-ND"
+		(property "Digi-Key PN" "541-10.0KLCT-ND"
 			(at 66.04 76.2 0)
 			(hide yes)
 			(show_name no)
@@ -5535,7 +5541,7 @@
 		(instances
 			(project "HEI_Shift_Light"
 				(path "/288c8230-69eb-4ad9-929d-f4630114196f/41605f50-4a5f-4515-812e-3b7b65ea4a04"
-					(reference "R?")
+					(reference "R301")
 					(unit 1)
 				)
 			)
@@ -5552,7 +5558,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "b44fa203-2302-4d43-b0e0-11bdb53b04b9")
-		(property "Reference" "C?"
+		(property "Reference" "C301"
 			(at 59.055 62.23 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5659,7 +5665,7 @@
 		(instances
 			(project "HEI_Shift_Light"
 				(path "/288c8230-69eb-4ad9-929d-f4630114196f/41605f50-4a5f-4515-812e-3b7b65ea4a04"
-					(reference "C?")
+					(reference "C301")
 					(unit 1)
 				)
 			)
@@ -5676,7 +5682,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "b97ef892-0cae-4e02-833d-a8b74147e610")
-		(property "Reference" "C?"
+		(property "Reference" "C305"
 			(at 205.105 46.99 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5783,7 +5789,7 @@
 		(instances
 			(project "HEI_Shift_Light"
 				(path "/288c8230-69eb-4ad9-929d-f4630114196f/41605f50-4a5f-4515-812e-3b7b65ea4a04"
-					(reference "C?")
+					(reference "C305")
 					(unit 1)
 				)
 			)
@@ -5801,7 +5807,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "be440343-1754-4440-98b7-239b4eddb9a1")
-		(property "Reference" "Q?"
+		(property "Reference" "Q302"
 			(at 245.11 53.3399 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5859,6 +5865,9 @@
 				)
 			)
 		)
+    (property "Digi-Key PN" "BSS214NWH6327XTSA1CT-ND" (at 238.76 54.61 0)
+      (effects (font (size 1.27 1.27)) (hide yes))
+    )
 		(pin "2"
 			(uuid "724fc123-3623-45a9-89c3-a4a4ed33fc3b")
 		)
@@ -5871,7 +5880,7 @@
 		(instances
 			(project "HEI_Shift_Light"
 				(path "/288c8230-69eb-4ad9-929d-f4630114196f/41605f50-4a5f-4515-812e-3b7b65ea4a04"
-					(reference "Q?")
+					(reference "Q302")
 					(unit 1)
 				)
 			)
@@ -5888,7 +5897,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "be4907d9-878f-4a46-a891-27b057625a97")
-		(property "Reference" "#FLG?"
+		(property "Reference" "#FLG0301"
 			(at 184.15 62.865 0)
 			(hide yes)
 			(show_name no)
@@ -5947,7 +5956,7 @@
 		(instances
 			(project "HEI_Shift_Light"
 				(path "/288c8230-69eb-4ad9-929d-f4630114196f/41605f50-4a5f-4515-812e-3b7b65ea4a04"
-					(reference "#FLG?")
+					(reference "#FLG0301")
 					(unit 1)
 				)
 			)
@@ -5964,7 +5973,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "c3ef0e4d-3428-4bde-bb94-b1d94bb64496")
-		(property "Reference" "#PWR?"
+		(property "Reference" "#PWR0311"
 			(at 173.99 68.58 0)
 			(hide yes)
 			(show_name no)
@@ -6024,7 +6033,7 @@
 		(instances
 			(project "HEI_Shift_Light"
 				(path "/288c8230-69eb-4ad9-929d-f4630114196f/41605f50-4a5f-4515-812e-3b7b65ea4a04"
-					(reference "#PWR?")
+					(reference "#PWR0311")
 					(unit 1)
 				)
 			)
@@ -6041,7 +6050,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "c5d992fb-e0dc-4756-907c-a010cf770dde")
-		(property "Reference" "#PWR?"
+		(property "Reference" "#PWR0309"
 			(at 152.4 119.38 0)
 			(hide yes)
 			(show_name no)
@@ -6100,7 +6109,7 @@
 		(instances
 			(project "HEI_Shift_Light"
 				(path "/288c8230-69eb-4ad9-929d-f4630114196f/41605f50-4a5f-4515-812e-3b7b65ea4a04"
-					(reference "#PWR?")
+					(reference "#PWR0309")
 					(unit 1)
 				)
 			)
@@ -6117,7 +6126,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "cd65f904-0f25-4673-9186-8395cf7fcb88")
-		(property "Reference" "U?"
+		(property "Reference" "U301"
 			(at 124.46 53.34 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6169,7 +6178,7 @@
 				)
 			)
 		)
-		(property "Digi-Key PN" ""
+		(property "Digi-Key PN" "296-30010-1-ND"
 			(at 121.92 85.09 0)
 			(hide yes)
 			(show_name no)
@@ -6234,7 +6243,7 @@
 		(instances
 			(project "HEI_Shift_Light"
 				(path "/288c8230-69eb-4ad9-929d-f4630114196f/41605f50-4a5f-4515-812e-3b7b65ea4a04"
-					(reference "U?")
+					(reference "U301")
 					(unit 1)
 				)
 			)
@@ -6251,7 +6260,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "d6e25ee1-d73d-43c7-83d2-ef4010a14a02")
-		(property "Reference" "#PWR?"
+		(property "Reference" "#PWR0304"
 			(at 93.98 120.65 0)
 			(hide yes)
 			(show_name no)
@@ -6310,7 +6319,7 @@
 		(instances
 			(project "HEI_Shift_Light"
 				(path "/288c8230-69eb-4ad9-929d-f4630114196f/41605f50-4a5f-4515-812e-3b7b65ea4a04"
-					(reference "#PWR?")
+					(reference "#PWR0304")
 					(unit 1)
 				)
 			)
@@ -6328,7 +6337,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "dbb276da-3bdd-4cc3-8347-407ae9900278")
-		(property "Reference" "#PWR?"
+		(property "Reference" "#PWR0314"
 			(at 203.2 33.02 0)
 			(hide yes)
 			(show_name no)
@@ -6389,7 +6398,7 @@
 		(instances
 			(project "HEI_Shift_Light"
 				(path "/288c8230-69eb-4ad9-929d-f4630114196f/41605f50-4a5f-4515-812e-3b7b65ea4a04"
-					(reference "#PWR?")
+					(reference "#PWR0314")
 					(unit 1)
 				)
 			)
@@ -6406,7 +6415,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "f14699c2-fc69-4cc3-826b-6ffc86bb84d4")
-		(property "Reference" "#PWR?"
+		(property "Reference" "#PWR0306"
 			(at 110.49 120.65 0)
 			(hide yes)
 			(show_name no)
@@ -6465,7 +6474,7 @@
 		(instances
 			(project "HEI_Shift_Light"
 				(path "/288c8230-69eb-4ad9-929d-f4630114196f/41605f50-4a5f-4515-812e-3b7b65ea4a04"
-					(reference "#PWR?")
+					(reference "#PWR0306")
 					(unit 1)
 				)
 			)
@@ -6482,7 +6491,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "fc364900-a8cd-4aa2-bdb3-c4496045c481")
-		(property "Reference" "#PWR?"
+		(property "Reference" "#PWR0313"
 			(at 184.15 60.96 0)
 			(hide yes)
 			(show_name no)
@@ -6542,7 +6551,7 @@
 		(instances
 			(project "HEI_Shift_Light"
 				(path "/288c8230-69eb-4ad9-929d-f4630114196f/41605f50-4a5f-4515-812e-3b7b65ea4a04"
-					(reference "#PWR?")
+					(reference "#PWR0313")
 					(unit 1)
 				)
 			)
@@ -6559,7 +6568,7 @@
 		(in_pos_files yes)
 		(dnp yes)
 		(uuid "fdcc4a7f-13d8-4f31-a59c-571467a73251")
-		(property "Reference" "R?"
+		(property "Reference" "R305"
 			(at 171.958 109.22 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6580,7 +6589,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistors_SMD:R_0603"
+		(property "Footprint" "Resistors_SMD:R_0402"
 			(at 173.99 109.22 0)
 			(hide yes)
 			(show_name no)
@@ -6612,7 +6621,7 @@
 				)
 			)
 		)
-		(property "display_footprint" "0603"
+		(property "display_footprint" "0402"
 			(at 176.53 107.188 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6634,7 +6643,7 @@
 				(justify left)
 			)
 		)
-		(property "Wattage" "1/10W"
+		(property "Wattage" "1/16W"
 			(at 176.784 111.252 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6645,7 +6654,7 @@
 				(justify left)
 			)
 		)
-		(property "Digi-Key PN" "311-180KHRCT-ND"
+		(property "Digi-Key PN" "541-4071-1-ND"
 			(at 173.99 109.22 0)
 			(hide yes)
 			(show_name no)
@@ -6665,7 +6674,7 @@
 		(instances
 			(project "HEI_Shift_Light"
 				(path "/288c8230-69eb-4ad9-929d-f4630114196f/41605f50-4a5f-4515-812e-3b7b65ea4a04"
-					(reference "R?")
+					(reference "R305")
 					(unit 1)
 				)
 			)
@@ -6682,7 +6691,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "ff98dbef-5e7d-44ad-8c6c-fb56041dd966")
-		(property "Reference" "#PWR?"
+		(property "Reference" "#PWR0307"
 			(at 124.46 125.73 0)
 			(hide yes)
 			(show_name no)
@@ -6741,7 +6750,7 @@
 		(instances
 			(project "HEI_Shift_Light"
 				(path "/288c8230-69eb-4ad9-929d-f4630114196f/41605f50-4a5f-4515-812e-3b7b65ea4a04"
-					(reference "#PWR?")
+					(reference "#PWR0307")
 					(unit 1)
 				)
 			)
