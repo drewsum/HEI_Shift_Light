@@ -4593,7 +4593,7 @@
 				)
 			)
 		)
-		(property "Digi-Key PN" "490-1014-1-ND"
+		(property "Digi-Key PN" "490-5441-1-ND"
 			(at 39.624 216.916 0)
 			(hide yes)
 			(show_name no)
@@ -4615,6 +4615,12 @@
 				)
 			)
 		)
+    (property "MPN" "BLM15AX601SN1D" (at 247.65 138.43 0)
+      (effects (font (size 1.27 1.27)) (hide yes))
+    )
+    (property "Manufacturer" "Murata Electronics" (at 247.65 138.43 0)
+      (effects (font (size 1.27 1.27)) (hide yes))
+    )
 		(pin "1"
 			(uuid "f00faa31-202f-4790-8c6f-42c42dcb172d")
 		)
@@ -5509,7 +5515,7 @@
 				)
 			)
 		)
-		(property "Digi-Key PN" "490-1014-1-ND"
+		(property "Digi-Key PN" "490-5441-1-ND"
 			(at 114.046 -150.622 0)
 			(hide yes)
 			(show_name no)
@@ -5531,6 +5537,12 @@
 				)
 			)
 		)
+    (property "MPN" "BLM15AX601SN1D" (at 209.55 91.44 0)
+      (effects (font (size 1.27 1.27)) (hide yes))
+    )
+    (property "Manufacturer" "Murata Electronics" (at 209.55 91.44 0)
+      (effects (font (size 1.27 1.27)) (hide yes))
+    )
 		(pin "1"
 			(uuid "90cc138f-cb3b-4206-940e-d3516eab3225")
 		)

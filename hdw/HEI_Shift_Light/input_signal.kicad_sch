@@ -3115,7 +3115,7 @@
 				)
 			)
 		)
-		(property "Digi-Key PN" "541-10.0KLCT-ND"
+		(property "Digi-Key PN" "P16059CT-ND"
 			(at 30.48 101.6 0)
 			(hide yes)
 			(show_name no)
@@ -3126,6 +3126,9 @@
 				)
 			)
 		)
+    (property "MPN" "CRCW080510K0FKEA" (at 40.64 93.98 0)
+      (effects (font (size 1.27 1.27)) (hide yes))
+    )
 		(pin "1"
 			(uuid "d6a4d295-2b05-4ed7-956f-d8f531207683")
 		)
@@ -6149,7 +6152,7 @@
 				)
 			)
 		)
-		(property "Digi-Key PN" "541-10.0KLCT-ND"
+		(property "Digi-Key PN" "P16059CT-ND"
 			(at 48.26 101.6 0)
 			(hide yes)
 			(show_name no)
@@ -6160,6 +6163,9 @@
 				)
 			)
 		)
+    (property "MPN" "CRCW080510K0FKEA" (at 58.42 93.98 0)
+      (effects (font (size 1.27 1.27)) (hide yes))
+    )
 		(pin "1"
 			(uuid "899b0183-ec4c-40a0-af1e-468ae6fe3b8a")
 		)
