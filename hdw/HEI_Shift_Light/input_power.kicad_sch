@@ -3186,15 +3186,39 @@
 				)
 			)
 		)
-    (property "Digi-Key PN" "36-7691-ND" (at 41.91 123.19 0)
-      (effects (font (size 1.27 1.27)) (hide yes))
-    )
-    (property "MPN" "7691" (at 41.91 123.19 0)
-      (effects (font (size 1.27 1.27)) (hide yes))
-    )
-    (property "Manufacturer" "Keystone Electronics" (at 41.91 123.19 0)
-      (effects (font (size 1.27 1.27)) (hide yes))
-    )
+		(property "Digi-Key PN" "36-7691-ND"
+			(at 41.91 123.19 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "7691"
+			(at 41.91 123.19 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "Keystone Electronics"
+			(at 41.91 123.19 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "8a94b7db-7ab9-4fd5-a6f0-e12fe34a759a")
 		)
@@ -3304,9 +3328,17 @@
 				)
 			)
 		)
-    (property "Digi-Key PN" "SMBJ15CA-E3-52GICT-ND" (at 59.69 78.74 0)
-      (effects (font (size 1.27 1.27)) (hide yes))
-    )
+		(property "Digi-Key PN" "SMBJ15CA-E3-52GICT-ND"
+			(at 59.69 78.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "03f00710-ca56-46b1-8a43-1195026ef2f3")
 		)
@@ -3664,15 +3696,39 @@
 				)
 			)
 		)
-    (property "Digi-Key PN" "36-7691-ND" (at 41.91 71.12 0)
-      (effects (font (size 1.27 1.27)) (hide yes))
-    )
-    (property "MPN" "7691" (at 41.91 71.12 0)
-      (effects (font (size 1.27 1.27)) (hide yes))
-    )
-    (property "Manufacturer" "Keystone Electronics" (at 41.91 71.12 0)
-      (effects (font (size 1.27 1.27)) (hide yes))
-    )
+		(property "Digi-Key PN" "36-7691-ND"
+			(at 41.91 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "7691"
+			(at 41.91 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "Keystone Electronics"
+			(at 41.91 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "4f763b5a-0cd6-4e69-8b69-62d3e78a43c4")
 		)
@@ -4828,9 +4884,17 @@
 				)
 			)
 		)
-    (property "Digi-Key PN" "SAM1051-01-ND" (at 49.53 121.92 0)
-      (effects (font (size 1.27 1.27)) (hide yes))
-    )
+		(property "Digi-Key PN" "SAM1051-01-ND"
+			(at 49.53 121.92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "13739eaf-63d4-482e-9ba8-7f748a3d568d")
 		)
@@ -5434,9 +5498,17 @@
 				)
 			)
 		)
-    (property "Digi-Key PN" "TPS26624DRCR-ND" (at 156.21 83.82 0)
-      (effects (font (size 1.27 1.27)) (hide yes))
-    )
+		(property "Digi-Key PN" "TPS26624DRCR-ND"
+			(at 156.21 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "3f17e5dc-eb67-4b73-b0ff-9bc429c6ba1b")
 		)

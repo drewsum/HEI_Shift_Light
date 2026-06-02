@@ -2984,9 +2984,17 @@
 				)
 			)
 		)
-    (property "Digi-Key PN" "1727-5796-2-ND" (at 40.64 186.69 0)
-      (effects (font (size 1.27 1.27)) (hide yes))
-    )
+		(property "Digi-Key PN" "1727-5796-2-ND"
+			(at 40.64 186.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "6"
 			(uuid "5ec5b810-4747-48a5-82e5-baeb0e5ce6ee")
 		)
@@ -3080,9 +3088,17 @@
 				)
 			)
 		)
-    (property "Digi-Key PN" "150-PIC18F16Q41-I-REB-ND" (at 133.35 81.28 0)
-      (effects (font (size 1.27 1.27)) (hide yes))
-    )
+		(property "Digi-Key PN" "150-PIC18F16Q41-I-REB-ND"
+			(at 133.35 81.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "9"
 			(uuid "79a8b062-0613-444b-bf98-2d600c3803e4")
 		)
@@ -5265,9 +5281,17 @@
 				)
 			)
 		)
-    (property "Digi-Key PN" "SAM1051-08-ND" (at 17.78 167.64 0)
-      (effects (font (size 1.27 1.27)) (hide yes))
-    )
+		(property "Digi-Key PN" "SAM1051-08-ND"
+			(at 17.78 167.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "249ec40b-477d-460f-a499-2ae8ae84b9e0")
 		)

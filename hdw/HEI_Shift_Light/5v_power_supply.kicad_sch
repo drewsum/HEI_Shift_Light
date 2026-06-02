@@ -4368,9 +4368,17 @@
 				)
 			)
 		)
-    (property "Digi-Key PN" "BSS214NWH6327XTSA1CT-ND" (at 219.71 62.23 0)
-      (effects (font (size 1.27 1.27)) (hide yes))
-    )
+		(property "Digi-Key PN" "BSS214NWH6327XTSA1CT-ND"
+			(at 219.71 62.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "d3697031-2efd-47ab-a538-8b9dc36cb577")
 		)
@@ -4456,9 +4464,17 @@
 				)
 			)
 		)
-    (property "Digi-Key PN" "568-1615-1-ND" (at 204.47 33.02 0)
-      (effects (font (size 1.27 1.27)) (hide yes))
-    )
+		(property "Digi-Key PN" "568-1615-1-ND"
+			(at 204.47 33.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "0f944297-d6b9-4826-a46d-85c365c87f3c")
 		)
@@ -5865,9 +5881,17 @@
 				)
 			)
 		)
-    (property "Digi-Key PN" "BSS214NWH6327XTSA1CT-ND" (at 238.76 54.61 0)
-      (effects (font (size 1.27 1.27)) (hide yes))
-    )
+		(property "Digi-Key PN" "BSS214NWH6327XTSA1CT-ND"
+			(at 238.76 54.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "724fc123-3623-45a9-89c3-a4a4ed33fc3b")
 		)

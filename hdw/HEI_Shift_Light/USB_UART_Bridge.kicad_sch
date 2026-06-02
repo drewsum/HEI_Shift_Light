@@ -4615,12 +4615,28 @@
 				)
 			)
 		)
-    (property "MPN" "BLM15AX601SN1D" (at 247.65 138.43 0)
-      (effects (font (size 1.27 1.27)) (hide yes))
-    )
-    (property "Manufacturer" "Murata Electronics" (at 247.65 138.43 0)
-      (effects (font (size 1.27 1.27)) (hide yes))
-    )
+		(property "MPN" "BLM15AX601SN1D"
+			(at 247.65 138.43 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "Murata Electronics"
+			(at 247.65 138.43 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "f00faa31-202f-4790-8c6f-42c42dcb172d")
 		)
@@ -4846,9 +4862,17 @@
 				)
 			)
 		)
-    (property "Digi-Key PN" "SP0502BAJT-ND" (at 156.21 116.84 0)
-      (effects (font (size 1.27 1.27)) (hide yes))
-    )
+		(property "Digi-Key PN" "SP0502BAJT-ND"
+			(at 156.21 116.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "3"
 			(uuid "aa110b9b-a0d0-4a32-9c32-3b815ba05474")
 		)
@@ -5537,12 +5561,28 @@
 				)
 			)
 		)
-    (property "MPN" "BLM15AX601SN1D" (at 209.55 91.44 0)
-      (effects (font (size 1.27 1.27)) (hide yes))
-    )
-    (property "Manufacturer" "Murata Electronics" (at 209.55 91.44 0)
-      (effects (font (size 1.27 1.27)) (hide yes))
-    )
+		(property "MPN" "BLM15AX601SN1D"
+			(at 209.55 91.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "Murata Electronics"
+			(at 209.55 91.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "90cc138f-cb3b-4206-940e-d3516eab3225")
 		)
@@ -7803,9 +7843,17 @@
 				)
 			)
 		)
-    (property "Digi-Key PN" "2073-USB4110-GF-A-1-ND" (at 240.03 106.68 0)
-      (effects (font (size 1.27 1.27)) (hide yes))
-    )
+		(property "Digi-Key PN" "2073-USB4110-GF-A-1-ND"
+			(at 240.03 106.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "B7"
 			(uuid "e694b3ef-e75b-4b1b-97de-0e568d188e2d")
 		)

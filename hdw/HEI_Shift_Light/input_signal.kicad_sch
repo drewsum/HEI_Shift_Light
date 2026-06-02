@@ -2681,9 +2681,17 @@
 				)
 			)
 		)
-    (property "Digi-Key PN" "SMBJ15CA-E3-52GICT-ND" (at 49.53 101.6 0)
-      (effects (font (size 1.27 1.27)) (hide yes))
-    )
+		(property "Digi-Key PN" "SMBJ15CA-E3-52GICT-ND"
+			(at 49.53 101.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "af64d953-894d-4e03-95b8-b7541cb87f26")
 		)
@@ -3126,9 +3134,17 @@
 				)
 			)
 		)
-    (property "MPN" "CRCW080510K0FKEA" (at 40.64 93.98 0)
-      (effects (font (size 1.27 1.27)) (hide yes))
-    )
+		(property "MPN" "CRCW080510K0FKEA"
+			(at 40.64 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "d6a4d295-2b05-4ed7-956f-d8f531207683")
 		)
@@ -3287,9 +3303,17 @@
 				)
 			)
 		)
-    (property "Digi-Key PN" "568-1615-1-ND" (at 87.63 93.98 0)
-      (effects (font (size 1.27 1.27)) (hide yes))
-    )
+		(property "Digi-Key PN" "568-1615-1-ND"
+			(at 87.63 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "6f7d92ff-7037-4d74-abd4-30956abc70fd")
 		)
@@ -3847,9 +3871,17 @@
 				)
 			)
 		)
-    (property "Digi-Key PN" "LM2907N-8-NOPB-ND" (at 181.61 93.98 0)
-      (effects (font (size 1.27 1.27)) (hide yes))
-    )
+		(property "Digi-Key PN" "LM2907N-8-NOPB-ND"
+			(at 181.61 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "7"
 			(uuid "d99d6379-1590-4988-83aa-e948cd245b25")
 		)
@@ -4278,7 +4310,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10nF"
+		(property "Value" "1uF"
 			(at 189.23 120.6499 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4322,7 +4354,7 @@
 				)
 			)
 		)
-		(property "display_footprint" "0402"
+		(property "display_footprint" ""
 			(at 189.23 123.1899 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4355,7 +4387,7 @@
 				(justify left)
 			)
 		)
-		(property "Digi-Key PN" "311-3960-1-ND"
+		(property "Digi-Key PN" ""
 			(at 196.215 110.49 0)
 			(hide yes)
 			(show_name no)
@@ -5960,15 +5992,39 @@
 				)
 			)
 		)
-    (property "Digi-Key PN" "36-7691-ND" (at 21.59 93.98 0)
-      (effects (font (size 1.27 1.27)) (hide yes))
-    )
-    (property "MPN" "7691" (at 21.59 93.98 0)
-      (effects (font (size 1.27 1.27)) (hide yes))
-    )
-    (property "Manufacturer" "Keystone Electronics" (at 21.59 93.98 0)
-      (effects (font (size 1.27 1.27)) (hide yes))
-    )
+		(property "Digi-Key PN" "36-7691-ND"
+			(at 21.59 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "7691"
+			(at 21.59 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "Keystone Electronics"
+			(at 21.59 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "5ea440a0-c15e-4f2a-9088-4f60297d4b6a")
 		)
@@ -6163,9 +6219,17 @@
 				)
 			)
 		)
-    (property "MPN" "CRCW080510K0FKEA" (at 58.42 93.98 0)
-      (effects (font (size 1.27 1.27)) (hide yes))
-    )
+		(property "MPN" "CRCW080510K0FKEA"
+			(at 58.42 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "899b0183-ec4c-40a0-af1e-468ae6fe3b8a")
 		)
