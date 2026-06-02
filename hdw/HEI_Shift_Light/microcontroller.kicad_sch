@@ -4187,7 +4187,7 @@
 				(justify right)
 			)
 		)
-		(property "Digi-Key PN" "399-7845-1-ND"
+		(property "Digi-Key PN" "1276-7069-1-ND"
 			(at 109.855 173.99 0)
 			(hide yes)
 			(show_name no)
@@ -4544,7 +4544,7 @@
 				(justify right)
 			)
 		)
-		(property "Digi-Key PN" "399-7845-1-ND"
+		(property "Digi-Key PN" "1276-7069-1-ND"
 			(at 130.175 173.99 0)
 			(hide yes)
 			(show_name no)
@@ -4898,7 +4898,7 @@
 				(justify right)
 			)
 		)
-		(property "Digi-Key PN" "399-7845-1-ND"
+		(property "Digi-Key PN" "1276-7069-1-ND"
 			(at 128.905 25.4 0)
 			(hide yes)
 			(show_name no)

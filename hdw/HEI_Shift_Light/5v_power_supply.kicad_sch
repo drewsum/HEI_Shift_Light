@@ -2263,20 +2263,6 @@
 			(embedded_fonts no)
 		)
 	)
-	(rectangle
-		(start 193.04 24.13)
-		(end 265.43 77.47)
-		(stroke
-			(width 0)
-			(type solid)
-			(color 0 0 72 1)
-		)
-		(fill
-			(type hatch)
-			(color 0 0 255 1)
-		)
-		(uuid "81a06f0e-4961-406c-9584-89daf1384be3")
-	)
 	(text "Rise times & settled output range\n\nMin time: I=2.7 µA (fastest)  |  Typ: I=2.5 µA  |  Max time: I=2.3 µA (slowest)\n\nCondition	Rise time - min	Rise time - typ	Rise time - max	Settled VOUT\nDEF=low (nominal 5.00 V)	2.963 ms	3.200 ms	3.478 ms	4.910 - 5.090 V\nDEF=high (+5% = 5.25 V)	2.963 ms	3.200 ms	3.478 ms	5.155 - 5.345 V"
 		(exclude_from_sim no)
 		(at 40.64 151.13 0)
@@ -3446,7 +3432,7 @@
 				(justify right)
 			)
 		)
-		(property "Digi-Key PN" "399-7845-1-ND"
+		(property "Digi-Key PN" "1276-7069-1-ND"
 			(at 113.665 52.07 0)
 			(hide yes)
 			(show_name no)
@@ -3722,7 +3708,7 @@
 				(justify right)
 			)
 		)
-		(property "Digi-Key PN" ""
+		(property "Digi-Key PN" "1276-3148-1-ND"
 			(at 163.83 73.66 0)
 			(hide yes)
 			(show_name no)
@@ -3825,6 +3811,130 @@
 		)
 	)
 	(symbol
+		(lib_id "Custom_Library:R_Custom")
+		(at 241.3 45.72 0)
+		(mirror y)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "1c4d6f9f-ae58-40bc-92ee-f5a407bdda6e")
+		(property "Reference" "R307"
+			(at 239.522 42.418 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "150"
+			(at 241.3 45.72 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Footprint" "Resistors_SMD:R_0603"
+			(at 241.3 45.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 241.3 45.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 241.3 45.72 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "display_footprint" "0603"
+			(at 239.522 44.45 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Tolerance" "1%"
+			(at 239.522 46.736 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Wattage" "1/10W"
+			(at 239.522 49.022 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Digi-Key PN" "541-4023-1-ND"
+			(at 241.3 45.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "e1a1904b-09a5-47d0-9202-b52c3300bc0d")
+		)
+		(pin "2"
+			(uuid "8cf62d1c-3012-4d7f-b4cd-51bc6a6bd0d2")
+		)
+		(instances
+			(project "HEI_Shift_Light"
+				(path "/288c8230-69eb-4ad9-929d-f4630114196f/41605f50-4a5f-4515-812e-3b7b65ea4a04"
+					(reference "R307")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Connector:TestPoint")
 		(at 163.83 64.77 0)
 		(unit 1)
@@ -3896,130 +4006,6 @@
 			(project "HEI_Shift_Light"
 				(path "/288c8230-69eb-4ad9-929d-f4630114196f/41605f50-4a5f-4515-812e-3b7b65ea4a04"
 					(reference "TP301")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Custom_Library:R_Custom")
-		(at 241.3 45.72 0)
-		(mirror y)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "22ec844e-749e-4f40-ac6d-59f5f2f37dbb")
-		(property "Reference" "R307"
-			(at 239.522 42.418 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "150"
-			(at 241.3 45.72 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.016 1.016)
-				)
-			)
-		)
-		(property "Footprint" "Resistors_SMD:R_0402"
-			(at 241.3 45.72 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 241.3 45.72 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 241.3 45.72 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "display_footprint" "0402"
-			(at 239.522 44.45 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Tolerance" "1%"
-			(at 239.522 46.736 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Wattage" "1/16W"
-			(at 239.522 49.022 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Digi-Key PN" "541-4004-1-ND"
-			(at 241.3 45.72 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "757e5d59-e803-44fa-b272-ec3eaafc6558")
-		)
-		(pin "2"
-			(uuid "2dbac27d-31de-46c9-b1fa-769c8e66ac2b")
-		)
-		(instances
-			(project "HEI_Shift_Light"
-				(path "/288c8230-69eb-4ad9-929d-f4630114196f/41605f50-4a5f-4515-812e-3b7b65ea4a04"
-					(reference "R307")
 					(unit 1)
 				)
 			)
@@ -4789,7 +4775,7 @@
 				(justify right)
 			)
 		)
-		(property "Digi-Key PN" "399-7842-1-ND"
+		(property "Digi-Key PN" "1276-1028-1-ND"
 			(at -5.588 217.678 0)
 			(hide yes)
 			(show_name no)

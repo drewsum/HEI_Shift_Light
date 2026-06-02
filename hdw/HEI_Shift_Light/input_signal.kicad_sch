@@ -2805,7 +2805,7 @@
 				(justify right)
 			)
 		)
-		(property "Digi-Key PN" "399-7845-1-ND"
+		(property "Digi-Key PN" "1276-7069-1-ND"
 			(at 179.705 53.34 0)
 			(hide yes)
 			(show_name no)
@@ -4014,7 +4014,7 @@
 				(justify right)
 			)
 		)
-		(property "Digi-Key PN" "311-3968-1-ND"
+		(property "Digi-Key PN" "490-GRM1555C1H332GE01DTR-ND"
 			(at 120.015 88.9 0)
 			(hide yes)
 			(show_name no)
@@ -4138,7 +4138,7 @@
 				(justify right)
 			)
 		)
-		(property "Digi-Key PN" "399-7845-1-ND"
+		(property "Digi-Key PN" "1276-7069-1-ND"
 			(at 172.085 133.35 0)
 			(hide yes)
 			(show_name no)
