@@ -2627,7 +2627,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.vishay.com/docs/88392/smbj.pdf"
 			(at 53.34 101.6 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2751,7 +2751,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://product.tdk.com/en/system/files/dam/doc/product/capacitor/ceramic/mlcc/charasheet/c1005x7r1h104k050bb.pdf"
 			(at 169.545 63.5 0)
 			(hide yes)
 			(show_name no)
@@ -2805,7 +2805,7 @@
 				(justify right)
 			)
 		)
-		(property "Digi-Key PN" "1276-7069-1-ND"
+		(property "Digi-Key PN" "445-5932-1-ND"
 			(at 179.705 53.34 0)
 			(hide yes)
 			(show_name no)
@@ -2875,7 +2875,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.vishay.com/docs/20035/dcrcwe3.pdf"
 			(at 210.82 123.19 0)
 			(hide yes)
 			(show_name no)
@@ -3072,7 +3072,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://industrial.panasonic.com/cdbs/www-data/pdf/AQA0000/AQA0000CE21.pdf"
 			(at 40.64 93.98 0)
 			(hide yes)
 			(show_name no)
@@ -3376,7 +3376,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.vishay.com/docs/20035/dcrcwe3.pdf"
 			(at 137.16 101.6 0)
 			(hide yes)
 			(show_name no)
@@ -3651,7 +3651,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.vishay.com/docs/20035/dcrcwe3.pdf"
 			(at 137.16 86.36 0)
 			(hide yes)
 			(show_name no)
@@ -3959,7 +3959,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM1555C1H332GE01-01A.pdf"
 			(at 109.855 99.06 0)
 			(hide yes)
 			(show_name no)
@@ -4084,7 +4084,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://product.tdk.com/en/system/files/dam/doc/product/capacitor/ceramic/mlcc/charasheet/c1005x7r1h104k050bb.pdf"
 			(at 161.925 143.51 0)
 			(hide yes)
 			(show_name no)
@@ -4138,7 +4138,7 @@
 				(justify right)
 			)
 		)
-		(property "Digi-Key PN" "1276-7069-1-ND"
+		(property "Digi-Key PN" "445-5932-1-ND"
 			(at 172.085 133.35 0)
 			(hide yes)
 			(show_name no)
@@ -4208,7 +4208,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM188R61A106KE69-01.pdf"
 			(at 194.945 63.5 0)
 			(hide yes)
 			(show_name no)
@@ -4564,7 +4564,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM188R61A106KE69-01.pdf"
 			(at 186.055 120.65 0)
 			(hide yes)
 			(show_name no)
@@ -4765,7 +4765,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.yageo.com/en/Chart/Download/pdf/CC0603JRNPO9BN103"
 			(at 118.11 94.615 0)
 			(hide yes)
 			(show_name no)
@@ -5194,7 +5194,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.vishay.com/docs/20035/dcrcwe3.pdf"
 			(at 69.85 101.6 0)
 			(hide yes)
 			(show_name no)
@@ -5418,7 +5418,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.vishay.com/docs/20035/dcrcwe3.pdf"
 			(at 210.82 102.87 0)
 			(hide yes)
 			(show_name no)
@@ -5617,7 +5617,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.yageo.com/en/Chart/Download/pdf/CC0603JRNPO9BN103"
 			(at 177.165 120.65 0)
 			(hide yes)
 			(show_name no)
@@ -5970,7 +5970,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.keyelco.com/userAssets/file/K75p73.pdf"
 			(at 21.59 93.98 0)
 			(hide yes)
 			(show_name no)
@@ -6157,7 +6157,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://industrial.panasonic.com/cdbs/www-data/pdf/AQA0000/AQA0000CE21.pdf"
 			(at 58.42 93.98 0)
 			(hide yes)
 			(show_name no)

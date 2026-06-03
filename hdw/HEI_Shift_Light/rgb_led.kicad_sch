@@ -1563,7 +1563,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.vishay.com/docs/20035/dcrcwe3.pdf"
 			(at 116.84 132.08 0)
 			(hide yes)
 			(show_name no)
@@ -1782,7 +1782,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.vishay.com/docs/20035/dcrcwe3.pdf"
 			(at 156.21 137.16 0)
 			(hide yes)
 			(show_name no)
@@ -2339,7 +2339,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.vishay.com/docs/20035/dcrcwe3.pdf"
 			(at 153.67 111.76 0)
 			(hide yes)
 			(show_name no)
@@ -2614,7 +2614,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.vishay.com/docs/20035/dcrcwe3.pdf"
 			(at 161.29 72.39 0)
 			(hide yes)
 			(show_name no)
@@ -2736,7 +2736,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.vishay.com/docs/20035/dcrcwe3.pdf"
 			(at 116.84 106.68 0)
 			(hide yes)
 			(show_name no)
@@ -2857,7 +2857,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.vishay.com/docs/20035/dcrcwe3.pdf"
 			(at 151.13 86.36 0)
 			(hide yes)
 			(show_name no)
@@ -2976,7 +2976,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.vishay.com/docs/20035/dcrcwe3.pdf"
 			(at 116.84 81.28 0)
 			(hide yes)
 			(show_name no)
@@ -3251,7 +3251,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.vishay.com/docs/20035/dcrcwe3.pdf"
 			(at 166.37 123.19 0)
 			(hide yes)
 			(show_name no)
@@ -3375,7 +3375,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.vishay.com/docs/20035/dcrcwe3.pdf"
 			(at 163.83 97.79 0)
 			(hide yes)
 			(show_name no)

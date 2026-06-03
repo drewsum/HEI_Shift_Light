@@ -719,7 +719,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://apmhexseal.com/wp-content/uploads/APMShortCatalog-HEX-SC-01-Rev.-06.19.19.pdf"
 			(at 198.12 73.66 0)
 			(hide yes)
 			(show_name no)
@@ -879,7 +879,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.keyelco.com/userAssets/file/K75p87.pdf"
 			(at 185.42 74.93 0)
 			(hide yes)
 			(show_name no)
@@ -1117,7 +1117,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://apmhexseal.com/wp-content/uploads/APMShortCatalog-HEX-SC-01-Rev.-06.19.19.pdf"
 			(at 185.42 99.06 0)
 			(hide yes)
 			(show_name no)
@@ -1202,7 +1202,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://apmhexseal.com/wp-content/uploads/APMShortCatalog-HEX-SC-01-Rev.-06.19.19.pdf"
 			(at 185.42 73.66 0)
 			(hide yes)
 			(show_name no)
@@ -1287,7 +1287,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://apmhexseal.com/wp-content/uploads/APMShortCatalog-HEX-SC-01-Rev.-06.19.19.pdf"
 			(at 172.72 99.06 0)
 			(hide yes)
 			(show_name no)
@@ -1372,7 +1372,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://apmhexseal.com/wp-content/uploads/APMShortCatalog-HEX-SC-01-Rev.-06.19.19.pdf"
 			(at 210.82 73.66 0)
 			(hide yes)
 			(show_name no)
@@ -1456,7 +1456,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.keyelco.com/userAssets/file/K75p87.pdf"
 			(at 198.12 74.93 0)
 			(hide yes)
 			(show_name no)
@@ -1540,7 +1540,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.keyelco.com/userAssets/file/K75p87.pdf"
 			(at 210.82 74.93 0)
 			(hide yes)
 			(show_name no)
@@ -1779,7 +1779,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://apmhexseal.com/wp-content/uploads/APMShortCatalog-HEX-SC-01-Rev.-06.19.19.pdf"
 			(at 210.82 99.06 0)
 			(hide yes)
 			(show_name no)
@@ -1863,7 +1863,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.keyelco.com/userAssets/file/K75p87.pdf"
 			(at 172.72 74.93 0)
 			(hide yes)
 			(show_name no)
@@ -2024,7 +2024,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://apmhexseal.com/wp-content/uploads/APMShortCatalog-HEX-SC-01-Rev.-06.19.19.pdf"
 			(at 172.72 73.66 0)
 			(hide yes)
 			(show_name no)
@@ -2262,7 +2262,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://apmhexseal.com/wp-content/uploads/APMShortCatalog-HEX-SC-01-Rev.-06.19.19.pdf"
 			(at 198.12 99.06 0)
 			(hide yes)
 			(show_name no)

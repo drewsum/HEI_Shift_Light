@@ -3254,7 +3254,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.vishay.com/docs/20035/dcrcwe3.pdf"
 			(at 152.4 109.22 0)
 			(hide yes)
 			(show_name no)
@@ -3378,7 +3378,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://product.tdk.com/en/system/files/dam/doc/product/capacitor/ceramic/mlcc/charasheet/c1005x7r1h104k050bb.pdf"
 			(at 103.505 62.23 0)
 			(hide yes)
 			(show_name no)
@@ -3432,7 +3432,7 @@
 				(justify right)
 			)
 		)
-		(property "Digi-Key PN" "1276-7069-1-ND"
+		(property "Digi-Key PN" "445-5932-1-ND"
 			(at 113.665 52.07 0)
 			(hide yes)
 			(show_name no)
@@ -3654,7 +3654,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/41/CL31B226MPHNNNE_Spec.pdf"
 			(at 164.465 71.12 0)
 			(hide yes)
 			(show_name no)
@@ -3854,7 +3854,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.vishay.com/docs/20035/dcrcwe3.pdf"
 			(at 241.3 45.72 0)
 			(hide yes)
 			(show_name no)
@@ -4053,7 +4053,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.vishay.com/docs/20035/dcrcwe3.pdf"
 			(at 60.96 29.21 0)
 			(hide yes)
 			(show_name no)
@@ -4522,7 +4522,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.vishay.com/docs/20035/dcrcwe3.pdf"
 			(at 173.99 86.36 0)
 			(hide yes)
 			(show_name no)
@@ -4721,7 +4721,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/609/CL05B103KB5NNN_Spec.pdf"
 			(at 94.615 107.95 0)
 			(hide yes)
 			(show_name no)
@@ -4844,7 +4844,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.vishay.com/docs/20035/dcrcwe3.pdf"
 			(at 222.25 49.53 0)
 			(hide yes)
 			(show_name no)
@@ -5194,7 +5194,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.vishay.com/docs/34535/ihlp-1212bz-5a.pdf"
 			(at 148.59 67.31 0)
 			(hide yes)
 			(show_name no)
@@ -5469,7 +5469,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.vishay.com/docs/20035/dcrcwe3.pdf"
 			(at 58.42 86.36 0)
 			(hide yes)
 			(show_name no)
@@ -5593,7 +5593,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/2322/CL31B106KAHZW6E_Spec.pdf"
 			(at 59.055 62.23 0)
 			(hide yes)
 			(show_name no)
@@ -5717,7 +5717,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM188R61A106KE69-01.pdf"
 			(at 205.105 46.99 0)
 			(hide yes)
 			(show_name no)
@@ -6610,7 +6610,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.vishay.com/docs/20035/dcrcwe3.pdf"
 			(at 173.99 109.22 0)
 			(hide yes)
 			(show_name no)

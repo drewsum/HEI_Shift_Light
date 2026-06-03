@@ -3215,7 +3215,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.vishay.com/docs/20035/dcrcwe3.pdf"
 			(at 217.17 53.34 0)
 			(hide yes)
 			(show_name no)
@@ -3334,7 +3334,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.vishay.com/docs/20035/dcrcwe3.pdf"
 			(at 132.08 179.07 0)
 			(hide yes)
 			(show_name no)
@@ -3918,7 +3918,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.vishay.com/docs/20035/dcrcwe3.pdf"
 			(at 119.38 172.72 0)
 			(hide yes)
 			(show_name no)
@@ -4133,7 +4133,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://product.tdk.com/en/system/files/dam/doc/product/capacitor/ceramic/mlcc/charasheet/c1005x7r1h104k050bb.pdf"
 			(at 99.695 184.15 0)
 			(hide yes)
 			(show_name no)
@@ -4187,7 +4187,7 @@
 				(justify right)
 			)
 		)
-		(property "Digi-Key PN" "1276-7069-1-ND"
+		(property "Digi-Key PN" "445-5932-1-ND"
 			(at 109.855 173.99 0)
 			(hide yes)
 			(show_name no)
@@ -4490,7 +4490,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://product.tdk.com/en/system/files/dam/doc/product/capacitor/ceramic/mlcc/charasheet/c1005x7r1h104k050bb.pdf"
 			(at 120.015 184.15 0)
 			(hide yes)
 			(show_name no)
@@ -4544,7 +4544,7 @@
 				(justify right)
 			)
 		)
-		(property "Digi-Key PN" "1276-7069-1-ND"
+		(property "Digi-Key PN" "445-5932-1-ND"
 			(at 130.175 173.99 0)
 			(hide yes)
 			(show_name no)
@@ -4844,7 +4844,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://product.tdk.com/en/system/files/dam/doc/product/capacitor/ceramic/mlcc/charasheet/c1005x7r1h104k050bb.pdf"
 			(at 118.745 35.56 0)
 			(hide yes)
 			(show_name no)
@@ -4898,7 +4898,7 @@
 				(justify right)
 			)
 		)
-		(property "Digi-Key PN" "1276-7069-1-ND"
+		(property "Digi-Key PN" "445-5932-1-ND"
 			(at 128.905 25.4 0)
 			(hide yes)
 			(show_name no)
@@ -5044,7 +5044,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM188R61A106KE69-01.pdf"
 			(at 144.145 35.56 0)
 			(hide yes)
 			(show_name no)
@@ -5260,7 +5260,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://suddendocs.samtec.com/catalog_english/htsw_th.pdf"
 			(at 17.78 167.64 0)
 			(hide yes)
 			(show_name no)
@@ -5522,7 +5522,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.vishay.com/docs/20035/dcrcwe3.pdf"
 			(at 231.14 53.34 0)
 			(hide yes)
 			(show_name no)

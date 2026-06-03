@@ -1956,7 +1956,7 @@
 		)
 		(uuid "29aca22b-4557-4bca-bf21-109b6ef9f614")
 	)
-	(text "VIN_PGOOD divider:\nVEN at VUV (min VOUT)\n2.98 V\nMust be ≥ 0.65 V ✓\nVEN at VOV (max VOUT)\n4.46 V\n✓ Within safe range\nDivider current at VUV\n70.53 µA\nKeep ≥ 10× EN leakage\n✓ V(EN) min = 2.98 V (need ≥ 0.65 V)✓ V(EN) max = 4.46 V✓ Fault: FLT pulls EN to ~0 V (< 0.3 V)"
+	(text "VIN_PGOOD divider:\nVEN at VUV (min VOUT)\n2.98 V\nMust be â‰¥ 0.65 V âœ“\nVEN at VOV (max VOUT)\n4.46 V\nâœ“ Within safe range\nDivider current at VUV\n70.53 ÂµA\nKeep â‰¥ 10Ã— EN leakage\nâœ“ V(EN) min = 2.98 V (need â‰¥ 0.65 V)âœ“ V(EN) max = 4.46 Vâœ“ Fault: FLT pulls EN to ~0 V (< 0.3 V)"
 		(exclude_from_sim no)
 		(at 160.02 158.75 0)
 		(effects
@@ -1967,7 +1967,7 @@
 		)
 		(uuid "8bcdc26c-d4cb-4e3d-be24-ef1d2894cc02")
 	)
-	(text "DVDT cap:\nMin corner: I=2.33 µA, GAIN=23.9 V/V (longest ramp)\nTyp: I=1.98 µA, GAIN=24.6 V/V\nMax corner: I=1.68 µA, GAIN=25.2 V/V (shortest ramp - slowest I, widest gain)\n\nVOUT target	Rise time - min	Rise time - typ	Rise time - max	Slew rate (typ)\n10.03 V (UVLO threshold)	18.0 ms	20.6 ms	23.7 ms	0.49 V/ms\n12 V (Nominal)	21.5 ms	24.6 ms	28.3 ms	0.49 V/ms\n15.03 V (OVP threshold)	27.0 ms	30.9 ms	35.5 ms	0.49 V/ms"
+	(text "DVDT cap:\nMin corner: I=2.33 ÂµA, GAIN=23.9 V/V (longest ramp)\nTyp: I=1.98 ÂµA, GAIN=24.6 V/V\nMax corner: I=1.68 ÂµA, GAIN=25.2 V/V (shortest ramp - slowest I, widest gain)\n\nVOUT target	Rise time - min	Rise time - typ	Rise time - max	Slew rate (typ)\n10.03 V (UVLO threshold)	18.0 ms	20.6 ms	23.7 ms	0.49 V/ms\n12 V (Nominal)	21.5 ms	24.6 ms	28.3 ms	0.49 V/ms\n15.03 V (OVP threshold)	27.0 ms	30.9 ms	35.5 ms	0.49 V/ms"
 		(exclude_from_sim no)
 		(at 53.34 156.21 0)
 		(effects
@@ -2833,7 +2833,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.vishay.com/docs/34563/ihlp-2020cz-8a.pdf"
 			(at 71.12 49.53 0)
 			(hide yes)
 			(show_name no)
@@ -3031,7 +3031,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.vishay.com/docs/20035/dcrcwe3.pdf"
 			(at 97.79 93.98 0)
 			(hide yes)
 			(show_name no)
@@ -3154,8 +3154,9 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.vishay.com/docs/88392/smbj.pdf"
 			(at 63.5 57.15 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3354,7 +3355,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.vishay.com/docs/20035/dcrcwe3.pdf"
 			(at 97.79 68.58 0)
 			(hide yes)
 			(show_name no)
@@ -3554,7 +3555,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.keyelco.com/userAssets/file/K75p73.pdf"
 			(at 41.91 49.53 0)
 			(hide yes)
 			(show_name no)
@@ -3664,7 +3665,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.vishay.com/docs/20035/dcrcwe3.pdf"
 			(at 203.2 67.31 0)
 			(hide yes)
 			(show_name no)
@@ -3865,7 +3866,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://product.tdk.com/en/system/files/dam/doc/product/capacitor/ceramic/mlcc/charasheet/c1005x7r1h104k050bb.pdf"
 			(at 120.015 53.34 0)
 			(hide yes)
 			(show_name no)
@@ -3919,7 +3920,7 @@
 				(justify right)
 			)
 		)
-		(property "Digi-Key PN" "1276-7069-1-ND"
+		(property "Digi-Key PN" "445-5932-1-ND"
 			(at 130.175 43.18 0)
 			(hide yes)
 			(show_name no)
@@ -3988,7 +3989,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.vishay.com/docs/20035/dcrcwe3.pdf"
 			(at 203.2 80.01 0)
 			(hide yes)
 			(show_name no)
@@ -4112,7 +4113,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/2322/CL31B106KAHZW6E_Spec.pdf"
 			(at 219.075 53.34 0)
 			(hide yes)
 			(show_name no)
@@ -4236,7 +4237,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://yageogroup.com/content/datasheet/asset/file/KEM_T2076_T52X-530"
 			(at 85.725 53.34 0)
 			(hide yes)
 			(show_name no)
@@ -4742,7 +4743,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://suddendocs.samtec.com/catalog_english/htsw_th.pdf"
 			(at 54.61 100.33 0)
 			(hide yes)
 			(show_name no)
@@ -4830,7 +4831,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.vishay.com/docs/20035/dcrcwe3.pdf"
 			(at 97.79 55.88 0)
 			(hide yes)
 			(show_name no)
@@ -5030,7 +5031,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.vishay.com/docs/20035/dcrcwe3.pdf"
 			(at 193.04 93.98 0)
 			(hide yes)
 			(show_name no)
@@ -5231,7 +5232,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://product.tdk.com/en/system/files/dam/doc/product/capacitor/ceramic/mlcc/charasheet/c1005x7r1h104k050bb.pdf"
 			(at 120.015 91.44 0)
 			(hide yes)
 			(show_name no)
@@ -5285,7 +5286,7 @@
 				(justify right)
 			)
 		)
-		(property "Digi-Key PN" "1276-7069-1-ND"
+		(property "Digi-Key PN" "445-5932-1-ND"
 			(at 130.175 81.28 0)
 			(hide yes)
 			(show_name no)

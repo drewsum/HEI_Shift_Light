@@ -4343,7 +4343,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.vishay.com/docs/20035/dcrcwe3.pdf"
 			(at 181.61 27.94 0)
 			(hide yes)
 			(show_name no)
@@ -4572,7 +4572,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://pim.murata.com/asset/pim4/ferriteBeadInductortypefilter/ENFA0018_PDF_FERRITEBEADINDUCTORTYPEFILTER"
 			(at 247.65 138.43 0)
 			(hide yes)
 			(show_name no)
@@ -4706,7 +4706,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.vishay.com/docs/20035/dcrcwe3.pdf"
 			(at 106.68 109.22 0)
 			(hide yes)
 			(show_name no)
@@ -5011,7 +5011,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.vishay.com/docs/20035/dcrcwe3.pdf"
 			(at 106.68 106.68 0)
 			(hide yes)
 			(show_name no)
@@ -5220,7 +5220,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://product.tdk.com/en/system/files/dam/doc/product/capacitor/ceramic/mlcc/charasheet/c1005x7r1h104k050bb.pdf"
 			(at 93.345 114.3 0)
 			(hide yes)
 			(show_name no)
@@ -5274,7 +5274,7 @@
 				(justify right)
 			)
 		)
-		(property "Digi-Key PN" "1276-7069-1-ND"
+		(property "Digi-Key PN" "445-5932-1-ND"
 			(at 103.505 104.14 0)
 			(hide yes)
 			(show_name no)
@@ -5518,7 +5518,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://pim.murata.com/asset/pim4/ferriteBeadInductortypefilter/ENFA0018_PDF_FERRITEBEADINDUCTORTYPEFILTER"
 			(at 209.55 91.44 0)
 			(hide yes)
 			(show_name no)
@@ -5918,7 +5918,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM188R61A106KE69-01.pdf"
 			(at 174.625 50.8 0)
 			(hide yes)
 			(show_name no)
@@ -6094,7 +6094,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://product.tdk.com/en/system/files/dam/doc/product/capacitor/ceramic/mlcc/charasheet/c1005x7r1h104k050bb.pdf"
 			(at 155.575 50.8 0)
 			(hide yes)
 			(show_name no)
@@ -6148,7 +6148,7 @@
 				(justify right)
 			)
 		)
-		(property "Digi-Key PN" "1276-7069-1-ND"
+		(property "Digi-Key PN" "445-5932-1-ND"
 			(at 165.735 40.64 0)
 			(hide yes)
 			(show_name no)
@@ -6229,7 +6229,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.vishay.com/docs/20035/dcrcwe3.pdf"
 			(at 194.31 27.94 0)
 			(hide yes)
 			(show_name no)
@@ -6792,7 +6792,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://product.tdk.com/en/system/files/dam/doc/product/capacitor/ceramic/mlcc/charasheet/c1005x7r1h104k050bb.pdf"
 			(at 98.425 50.8 0)
 			(hide yes)
 			(show_name no)
@@ -6846,7 +6846,7 @@
 				(justify right)
 			)
 		)
-		(property "Digi-Key PN" "1276-7069-1-ND"
+		(property "Digi-Key PN" "445-5932-1-ND"
 			(at 108.585 40.64 0)
 			(hide yes)
 			(show_name no)
@@ -7016,7 +7016,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.yageo.com/en/Chart/Download/pdf/CC0402JRNPO9BN470"
 			(at 121.285 114.3 0)
 			(hide yes)
 			(show_name no)
@@ -7152,7 +7152,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.vishay.com/docs/20035/dcrcwe3.pdf"
 			(at 73.66 27.94 0)
 			(hide yes)
 			(show_name no)
@@ -7292,7 +7292,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.yageo.com/en/Chart/Download/pdf/CC0402JRNPO9BN470"
 			(at 142.875 114.3 0)
 			(hide yes)
 			(show_name no)
@@ -7957,7 +7957,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.vishay.com/docs/20035/dcrcwe3.pdf"
 			(at 209.55 115.57 0)
 			(hide yes)
 			(show_name no)
@@ -8792,7 +8792,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM188R61A106KE69-01.pdf"
 			(at 117.475 50.8 0)
 			(hide yes)
 			(show_name no)
@@ -8968,7 +8968,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM188R61A106KE69-01.pdf"
 			(at 79.375 77.47 0)
 			(hide yes)
 			(show_name no)
@@ -9144,7 +9144,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://product.tdk.com/en/system/files/dam/doc/product/capacitor/ceramic/mlcc/charasheet/c1005x7r1h104k050bb.pdf"
 			(at 62.865 77.47 0)
 			(hide yes)
 			(show_name no)
@@ -9198,7 +9198,7 @@
 				(justify right)
 			)
 		)
-		(property "Digi-Key PN" "1276-7069-1-ND"
+		(property "Digi-Key PN" "445-5932-1-ND"
 			(at 73.025 67.31 0)
 			(hide yes)
 			(show_name no)
@@ -9558,7 +9558,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.vishay.com/docs/20035/dcrcwe3.pdf"
 			(at 86.36 27.94 0)
 			(hide yes)
 			(show_name no)
@@ -10017,7 +10017,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.vishay.com/docs/20035/dcrcwe3.pdf"
 			(at 196.85 115.57 0)
 			(hide yes)
 			(show_name no)
@@ -10487,7 +10487,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://product.tdk.com/en/system/files/dam/doc/product/capacitor/ceramic/mlcc/charasheet/c1005x7r1h104k050bb.pdf"
 			(at 184.785 113.03 0)
 			(hide yes)
 			(show_name no)
@@ -10541,7 +10541,7 @@
 				(justify right)
 			)
 		)
-		(property "Digi-Key PN" "1276-7069-1-ND"
+		(property "Digi-Key PN" "445-5932-1-ND"
 			(at 194.945 102.87 0)
 			(hide yes)
 			(show_name no)
@@ -10787,7 +10787,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://product.tdk.com/en/system/files/dam/doc/product/capacitor/ceramic/mlcc/charasheet/c1005x7r1h104k050bb.pdf"
 			(at 45.085 77.47 0)
 			(hide yes)
 			(show_name no)
@@ -10841,7 +10841,7 @@
 				(justify right)
 			)
 		)
-		(property "Digi-Key PN" "1276-7069-1-ND"
+		(property "Digi-Key PN" "445-5932-1-ND"
 			(at 55.245 67.31 0)
 			(hide yes)
 			(show_name no)
