@@ -764,7 +764,7 @@
         "uuid": "288c8230-69eb-4ad9-929d-f4630114196f"
       }
     ],
-    "used_designators": "",
+    "used_designators": "H801-804",
     "variants": []
   },
   "sheets": [
@@ -795,6 +795,10 @@
     [
       "e9e880c3-52c8-4ff3-99b0-d37c53694b1a",
       "RGB LED"
+    ],
+    [
+      "1377132f-7086-479e-9882-49aee0a0f5c8",
+      "Mechanical"
     ]
   ],
   "text_variables": {},
