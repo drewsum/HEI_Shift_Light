@@ -6,7 +6,7 @@
 	(paper "A")
 	(title_block
 		(title "HEI Shift Light")
-		(date "2026-05-29")
+		(date "2026-06-02")
 		(rev "A")
 		(company "Drew Maatman")
 	)
@@ -1950,6 +1950,7 @@
 		(at 90.17 82.55 0)
 		(effects
 			(font
+				(face "Arial")
 				(size 1.27 1.27)
 			)
 			(justify right)
@@ -1961,6 +1962,7 @@
 		(at 160.02 158.75 0)
 		(effects
 			(font
+				(face "Arial")
 				(size 1.27 1.27)
 			)
 			(justify left)
@@ -1972,6 +1974,7 @@
 		(at 53.34 156.21 0)
 		(effects
 			(font
+				(face "Arial")
 				(size 1.27 1.27)
 			)
 			(justify left)
@@ -1983,6 +1986,7 @@
 		(at 213.36 93.98 0)
 		(effects
 			(font
+				(face "Arial")
 				(size 1.27 1.27)
 			)
 		)

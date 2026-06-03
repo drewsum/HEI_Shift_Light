@@ -6,7 +6,7 @@
 	(paper "A")
 	(title_block
 		(title "HEI Shift Light")
-		(date "2026-05-29")
+		(date "2026-06-02")
 		(rev "A")
 		(company "Drew Maatman")
 	)
@@ -675,6 +675,17 @@
 			)
 			(embedded_fonts no)
 		)
+	)
+	(text "Mount holes, screws and standoffs form main GND path to dash/car chassis"
+		(exclude_from_sim no)
+		(at 83.82 68.58 0)
+		(effects
+			(font
+				(face "Arial")
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "c5e37131-5bd3-4d90-a111-a68304395fbf")
 	)
 	(symbol
 		(lib_id "Auxiliary_Items:MountingScrew")

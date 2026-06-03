@@ -6,7 +6,7 @@
 	(paper "A")
 	(title_block
 		(title "HEI Shift Light")
-		(date "2026-05-29")
+		(date "2026-06-02")
 		(rev "A")
 		(company "Drew Maatman")
 	)
@@ -1238,7 +1238,7 @@
 		(at 24.13 176.53 0)
 		(effects
 			(font
-				(face "KiCad Font")
+				(face "Arial")
 				(size 1.27 1.27)
 			)
 			(justify left)

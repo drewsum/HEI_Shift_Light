@@ -6,7 +6,7 @@
 	(paper "A")
 	(title_block
 		(title "HEI Shift Light")
-		(date "2026-05-29")
+		(date "2026-06-02")
 		(rev "A")
 		(company "Drew Maatman")
 	)
@@ -2067,6 +2067,7 @@
 		(at 216.408 133.858 0)
 		(effects
 			(font
+				(face "Arial")
 				(size 1.27 1.27)
 			)
 			(justify left)
@@ -2078,6 +2079,7 @@
 		(at 216.408 65.278 0)
 		(effects
 			(font
+				(face "Arial")
 				(size 1.27 1.27)
 			)
 			(justify left)
@@ -2629,6 +2631,7 @@
 		)
 		(property "Datasheet" "https://www.vishay.com/docs/88392/smbj.pdf"
 			(at 53.34 101.6 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
