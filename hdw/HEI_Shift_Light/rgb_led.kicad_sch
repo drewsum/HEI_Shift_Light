@@ -1462,7 +1462,6 @@
 		(uuid "30a12e3f-84c5-4ec8-8833-317520542f5e")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 104.3601 106.68 0)
-			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1486,7 +1485,6 @@
 		(uuid "70ac76bf-5eec-46d4-82a3-b56a663c7530")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 104.3601 132.08 0)
-			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1510,7 +1508,6 @@
 		(uuid "80c576df-67f6-488b-a327-ae4a5cff127f")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 104.3601 81.28 0)
-			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1662,7 +1659,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "BSS214NW"
+		(property "Value" "DMN3150LW-7"
 			(at 147.32 129.54 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1709,7 +1706,7 @@
 				)
 			)
 		)
-		(property "Digi-Key PN" "BSS214NWH6327XTSA1CT-ND"
+		(property "Digi-Key PN" "DMN3150LWDICT-ND"
 			(at 163.83 132.08 0)
 			(hide yes)
 			(show_name no)
@@ -1958,7 +1955,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "BSS214NW"
+		(property "Value" "DMN3150LW-7"
 			(at 142.24 78.74 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2005,7 +2002,7 @@
 				)
 			)
 		)
-		(property "Digi-Key PN" "BSS214NWH6327XTSA1CT-ND"
+		(property "Digi-Key PN" "DMN3150LWDICT-ND"
 			(at 158.75 81.28 0)
 			(hide yes)
 			(show_name no)
@@ -2103,7 +2100,7 @@
 				)
 			)
 		)
-		(property "Digi-Key PN" "1830-1083-1-ND"
+		(property "Digi-Key PN" "1830-1098-1-ND"
 			(at 163.83 55.88 0)
 			(hide yes)
 			(show_name no)
@@ -3477,7 +3474,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "BSS214NW"
+		(property "Value" "DMN3150LW-7"
 			(at 144.78 104.14 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3524,7 +3521,7 @@
 				)
 			)
 		)
-		(property "Digi-Key PN" "BSS214NWH6327XTSA1CT-ND"
+		(property "Digi-Key PN" "DMN3150LWDICT-ND"
 			(at 161.29 106.68 0)
 			(hide yes)
 			(show_name no)

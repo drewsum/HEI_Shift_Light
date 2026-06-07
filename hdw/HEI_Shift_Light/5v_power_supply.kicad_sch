@@ -3095,6 +3095,7 @@
 	(global_label "POS5_RUN"
 		(shape input)
 		(at 214.63 62.23 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3103,20 +3104,21 @@
 		)
 		(uuid "031fd16b-79d9-4cb1-9b50-57603b4aec2f")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 214.63 62.23 0)
-			(hide yes)
+			(at 201.7267 62.23 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
 	)
 	(global_label "VIN_PGOOD"
 		(shape input)
 		(at 57.15 29.21 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3125,20 +3127,21 @@
 		)
 		(uuid "25022192-ae9f-4a96-963a-7a15fc6ff996")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 57.15 29.21 0)
-			(hide yes)
+			(at 43.7023 29.21 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
 	)
 	(global_label "POS5_PGOOD"
 		(shape output)
 		(at 55.88 97.79 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3147,20 +3150,21 @@
 		)
 		(uuid "4adf89b2-03bb-4d5e-bc5b-b063039a3cb9")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 55.88 97.79 0)
-			(hide yes)
+			(at 40.4367 97.79 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
 	)
 	(global_label "POS5_RUN"
 		(shape output)
 		(at 64.77 29.21 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3169,20 +3173,21 @@
 		)
 		(uuid "4f6eee9f-02ae-4731-bc83-5350ffc8f1ea")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 64.77 29.21 0)
-			(hide yes)
+			(at 77.6733 29.21 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 	)
 	(global_label "POS5_RUN"
 		(shape input)
 		(at 111.76 77.47 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3191,14 +3196,14 @@
 		)
 		(uuid "bd1bfee2-59d0-4eb5-a71a-b3c53ae760e4")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 111.76 77.47 0)
-			(hide yes)
+			(at 98.8567 77.47 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
 	)
@@ -4298,7 +4303,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "BSS214NW"
+		(property "Value" "DMN3150LW-7"
 			(at 226.06 63.4999 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4345,7 +4350,7 @@
 				)
 			)
 		)
-		(property "Digi-Key PN" "BSS214NWH6327XTSA1CT-ND"
+		(property "Digi-Key PN" "DMN3150LWDICT-ND"
 			(at 219.71 62.23 0)
 			(hide yes)
 			(show_name no)
@@ -4441,7 +4446,7 @@
 				)
 			)
 		)
-		(property "Digi-Key PN" "568-1615-1-ND"
+		(property "Digi-Key PN" "BAT54SWT1GOSCT-ND"
 			(at 204.47 33.02 0)
 			(hide yes)
 			(show_name no)
@@ -5762,7 +5767,7 @@
 				(justify right)
 			)
 		)
-		(property "Digi-Key PN" "490-10474-1-ND"
+		(property "Digi-Key PN" "445-C1608X5R1A106K080ACCT-ND"
 			(at 204.47 49.53 0)
 			(hide yes)
 			(show_name no)
@@ -5811,7 +5816,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "BSS214NW"
+		(property "Value" "DMN3150LW-7"
 			(at 245.11 55.8799 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5858,7 +5863,7 @@
 				)
 			)
 		)
-		(property "Digi-Key PN" "BSS214NWH6327XTSA1CT-ND"
+		(property "Digi-Key PN" "DMN3150LWDICT-ND"
 			(at 238.76 54.61 0)
 			(hide yes)
 			(show_name no)

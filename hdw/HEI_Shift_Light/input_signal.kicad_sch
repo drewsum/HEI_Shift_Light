@@ -2503,7 +2503,6 @@
 		(uuid "20455dcf-97c4-471e-a1db-fca213b55f8e")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 174.9735 149.86 0)
-			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2527,7 +2526,6 @@
 		(uuid "4497546c-73b8-4e49-aaf2-aad86e60b499")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 241.8058 116.84 0)
-			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2551,7 +2549,6 @@
 		(uuid "931b38ed-c89e-46d3-839d-4229b54b07c4")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 176.1453 147.32 0)
-			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2575,7 +2572,6 @@
 		(uuid "bf1bc598-56aa-4de0-b5c6-b9d95013176a")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 240.6566 53.34 0)
-			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2684,7 +2680,7 @@
 				)
 			)
 		)
-		(property "Digi-Key PN" "SMBJ15CA-E3-52GICT-ND"
+		(property "Digi-Key PN" "SMBJ15CA"
 			(at 49.53 101.6 0)
 			(hide yes)
 			(show_name no)
@@ -3306,7 +3302,7 @@
 				)
 			)
 		)
-		(property "Digi-Key PN" "568-1615-1-ND"
+		(property "Digi-Key PN" "BAT54SWT1GOSCT-ND"
 			(at 87.63 93.98 0)
 			(hide yes)
 			(show_name no)
@@ -3874,7 +3870,7 @@
 				)
 			)
 		)
-		(property "Digi-Key PN" "LM2907N-8-NOPB-ND"
+		(property "Digi-Key PN" "LM2907MX-8/NOPBCT-ND"
 			(at 181.61 93.98 0)
 			(hide yes)
 			(show_name no)
@@ -4265,7 +4261,7 @@
 				(justify right)
 			)
 		)
-		(property "Digi-Key PN" "490-10474-1-ND"
+		(property "Digi-Key PN" "445-C1608X5R1A106K080ACCT-ND"
 			(at 194.31 66.04 0)
 			(hide yes)
 			(show_name no)
@@ -4621,7 +4617,7 @@
 				(justify left)
 			)
 		)
-		(property "Digi-Key PN" "490-10474-1-ND"
+		(property "Digi-Key PN" "445-C1608X5R1A106K080ACCT-ND"
 			(at 185.42 123.19 0)
 			(hide yes)
 			(show_name no)
@@ -4820,7 +4816,7 @@
 				)
 			)
 		)
-		(property "Digi-Key PN" "311-3960-1-ND"
+		(property "Digi-Key PN" "1276-1028-1-ND"
 			(at 107.95 104.775 0)
 			(hide yes)
 			(show_name no)
@@ -5675,7 +5671,7 @@
 				(justify left)
 			)
 		)
-		(property "Digi-Key PN" "311-3960-1-ND"
+		(property "Digi-Key PN" "1276-1028-1-ND"
 			(at 167.005 110.49 0)
 			(hide yes)
 			(show_name no)

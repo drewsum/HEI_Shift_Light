@@ -2784,7 +2784,6 @@
 		(uuid "d1d1bd07-5448-441f-ba25-6f441dc02e74")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 230.6177 73.66 0)
-			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3213,7 +3212,7 @@
 				)
 			)
 		)
-		(property "Digi-Key PN" "SMBJ15CA-E3-52GICT-ND"
+		(property "Digi-Key PN" "SMBJ15CA"
 			(at 59.69 57.15 0)
 			(hide yes)
 			(show_name no)

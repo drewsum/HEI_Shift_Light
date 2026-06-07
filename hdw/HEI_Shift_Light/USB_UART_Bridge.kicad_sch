@@ -4011,7 +4011,6 @@
 		(uuid "6fe4ca7f-b6d3-4510-a04b-59ee0a7cffb8")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 227.8772 36.83 0)
-			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4035,7 +4034,6 @@
 		(uuid "7e772cbb-664f-484c-9314-3b2f426c5e36")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 45.4752 36.83 0)
-			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4059,7 +4057,6 @@
 		(uuid "99c519a2-8185-4028-b9be-86c88bb94019")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 228.1796 34.29 0)
-			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4083,7 +4080,6 @@
 		(uuid "b87c9ca8-eb74-4344-b999-9f993ec3e92a")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 45.1728 34.29 0)
-			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4107,7 +4103,6 @@
 		(uuid "eff1bb8a-be81-47b6-9112-ddffeb5cef8d")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 16.9304 101.6 0)
-			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4131,7 +4126,6 @@
 		(uuid "fcf9a71b-f20e-45aa-a15b-9d380d631596")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 17.2328 104.14 0)
-			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4817,7 +4811,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "SP0502BAJT"
+		(property "Value" "SP0502BAJTG"
 			(at 161.925 116.205 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4862,7 +4856,7 @@
 				)
 			)
 		)
-		(property "Digi-Key PN" "SP0502BAJT-ND"
+		(property "Digi-Key PN" "F3158CT-ND"
 			(at 156.21 116.84 0)
 			(hide yes)
 			(show_name no)
@@ -5972,7 +5966,7 @@
 				(justify right)
 			)
 		)
-		(property "Digi-Key PN" "490-10474-1-ND"
+		(property "Digi-Key PN" "445-C1608X5R1A106K080ACCT-ND"
 			(at 173.99 53.34 0)
 			(hide yes)
 			(show_name no)
@@ -8846,7 +8840,7 @@
 				(justify right)
 			)
 		)
-		(property "Digi-Key PN" "490-10474-1-ND"
+		(property "Digi-Key PN" "445-C1608X5R1A106K080ACCT-ND"
 			(at 116.84 53.34 0)
 			(hide yes)
 			(show_name no)
@@ -9022,7 +9016,7 @@
 				(justify right)
 			)
 		)
-		(property "Digi-Key PN" "490-10474-1-ND"
+		(property "Digi-Key PN" "445-C1608X5R1A106K080ACCT-ND"
 			(at 78.74 80.01 0)
 			(hide yes)
 			(show_name no)
