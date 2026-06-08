@@ -1948,130 +1948,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Custom_Library:TP"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "TP"
-				(at 0 3.81 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "Custom_Library_TP"
-				(at 0 3.81 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" "TestPoint:TestPoint_Keystone_5005-5009_Compact"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.524 1.524)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.524 1.524)
-					)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Digi-Key PN" "36-5005-ND"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "TP_0_1"
-				(circle
-					(center 0 1.905)
-					(radius 0.635)
-					(stroke
-						(width 0)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 0) (xy 0 1.27)
-					)
-					(stroke
-						(width 0)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "TP_1_1"
-				(pin passive line
-					(at 0 0 90)
-					(length 0)
-					(name "TP"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Device:Ferrite_Bead"
 			(pin_numbers
 				(hide yes)
@@ -3323,12 +3199,6 @@
 		(uuid "955509ae-1b19-40e6-9b0a-a3566353c593")
 	)
 	(junction
-		(at 173.99 91.44)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "bfb57116-14a2-46be-80d0-7c2ec8c398f2")
-	)
-	(junction
 		(at 222.25 109.22)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3760,7 +3630,7 @@
 	)
 	(wire
 		(pts
-			(xy 162.56 91.44) (xy 173.99 91.44)
+			(xy 162.56 91.44) (xy 184.15 91.44)
 		)
 		(stroke
 			(width 0)
@@ -3797,16 +3667,6 @@
 			(type default)
 		)
 		(uuid "a7b7e373-b6ac-4f3c-b0db-d32d061806b8")
-	)
-	(wire
-		(pts
-			(xy 173.99 91.44) (xy 184.15 91.44)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a9e6d01c-0b3c-436d-9e02-545c9f7f9d00")
 	)
 	(wire
 		(pts
@@ -3947,16 +3807,6 @@
 			(type default)
 		)
 		(uuid "f71213f6-c3d8-40f9-a4d8-0f45bf76c5ca")
-	)
-	(wire
-		(pts
-			(xy 173.99 88.9) (xy 173.99 91.44)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fefc1f75-6188-4372-a407-21270a94df43")
 	)
 	(label "BRIDGE_USB-"
 		(at 72.39 109.22 0)
@@ -5599,105 +5449,6 @@
 			(project "HEI_Shift_Light"
 				(path "/288c8230-69eb-4ad9-929d-f4630114196f/c4b824f9-827e-4368-b456-592a65eed557"
 					(reference "L601")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Custom_Library:TP")
-		(at 173.99 88.9 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "26bde4fb-eea0-4737-beb0-dc7e86f090d6")
-		(property "Reference" "TP601"
-			(at 173.99 85.09 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "TP"
-			(at 173.99 85.09 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Custom Footprints Library:Test_Point"
-			(at 173.99 88.9 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 173.99 88.9 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 173.99 88.9 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "f77eac69-856a-429c-b2de-163c27a3aaea")
-		)
-		(instances
-			(project "Analog_Clock"
-				(path "/0dc9b974-a945-4291-bc55-04b8e342b0e5/00000000-0000-0000-0000-00005a0bc776"
-					(reference "TP?")
-					(unit 1)
-				)
-				(path "/0dc9b974-a945-4291-bc55-04b8e342b0e5/00000000-0000-0000-0000-00005a557c58"
-					(reference "TP?")
-					(unit 1)
-				)
-				(path "/0dc9b974-a945-4291-bc55-04b8e342b0e5/00000000-0000-0000-0000-00005cad2d97"
-					(reference "TP?")
-					(unit 1)
-				)
-				(path "/0dc9b974-a945-4291-bc55-04b8e342b0e5/00000000-0000-0000-0000-00005e939f76"
-					(reference "TP?")
-					(unit 1)
-				)
-			)
-			(project "Nixie_Clock_Core"
-				(path "/16fdce21-b570-4d81-a458-e8839d611806/4cb440c2-4356-400c-9387-edaaa635d5a5"
-					(reference "TP1301")
-					(unit 1)
-				)
-			)
-			(project "HEI_Shift_Light"
-				(path "/288c8230-69eb-4ad9-929d-f4630114196f/c4b824f9-827e-4368-b456-592a65eed557"
-					(reference "TP601")
 					(unit 1)
 				)
 			)
