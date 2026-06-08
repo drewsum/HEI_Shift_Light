@@ -2322,6 +2322,29 @@
 			)
 		)
 	)
+	(global_label "POS5_PGOOD"
+		(shape input)
+		(at 153.67 69.85 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "43472b94-7883-43ff-be1c-e2ae4473b4f9")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 169.1133 69.85 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
 	(global_label "OPA1OUT"
 		(shape passive)
 		(at 207.01 140.97 180)

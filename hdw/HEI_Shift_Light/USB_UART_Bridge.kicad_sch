@@ -7637,9 +7637,9 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
+		(in_bom no)
+		(on_board no)
+		(in_pos_files no)
 		(dnp no)
 		(uuid "85464d40-3089-491c-b351-5771d67b454f")
 		(property "Reference" "DOC601"

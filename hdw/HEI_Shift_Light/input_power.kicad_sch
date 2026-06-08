@@ -3547,7 +3547,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Keystone:7691"
+		(property "Footprint" "Custom Footprints Library:CONN_7691_KEY"
 			(at 41.91 49.53 0)
 			(hide yes)
 			(show_name no)
