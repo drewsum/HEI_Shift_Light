@@ -580,15 +580,7 @@
       },
       {
         "netclass": "PWR_HV",
-        "pattern": "/Input Power/VIN_FILT"
-      },
-      {
-        "netclass": "PWR_HV",
         "pattern": "/Input Power/VIN_BATT"
-      },
-      {
-        "netclass": "PWR_HV",
-        "pattern": "Vin"
       },
       {
         "netclass": "PWR_HV",
