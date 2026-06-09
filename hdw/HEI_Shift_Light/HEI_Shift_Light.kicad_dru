@@ -1,0 +1,97 @@
+(version 1)
+
+# JLCPCB 4-Layer FR4 1.6mm Design Rules
+# Stackup: JLC04161H-7628
+# Ref: https://jlcpcb.com/capabilities/pcb-capabilities
+
+(rule "Min Trace Width"
+   (constraint track_width (min 0.1mm))
+   (condition "A.Type == 'track'")
+)
+
+(rule "Min Clearance"
+   (constraint clearance (min 0.1mm))
+   (condition "A.Type == 'track' && B.Type == 'track'")
+)
+
+(rule "Min Copper to Edge Clearance"
+   (constraint edge_clearance (min 0.3mm))
+)
+
+(rule "Min Via Diameter"
+   (constraint via_diameter (min 0.45mm))
+)
+
+(rule "Min Via Drill"
+   (constraint hole_size (min 0.2mm))
+   (condition "A.Type == 'via'")
+)
+
+(rule "Min Via Annular Ring"
+   (constraint annular_width (min 0.125mm))
+   (condition "A.Type == 'via'")
+)
+
+(rule "Min PTH Drill"
+   (constraint hole_size (min 0.2mm))
+   (condition "A.Type == 'pad' && A.Pad_Type == 'through hole'")
+)
+
+(rule "Min Hole Clearance"
+   (constraint hole_clearance (min 0.25mm))
+)
+
+(rule "Min Hole to Hole"
+   (constraint hole_to_hole (min 0.25mm))
+)
+
+# 90-ohm differential pair rules (outer layer microstrip)
+# Stackup: JLC04161H-7628, H=0.2104mm prepreg, T=0.035mm (1oz), er=4.4
+# Calculated: W=0.408mm, S=0.150mm -> Zdiff=90.1 ohm
+# Sensitivity: 1.25 ohm/0.01mm width, 0.57 ohm/0.01mm gap
+# JLCPCB impedance tolerance: +/-10% (+/-9 ohm)
+
+(rule "DiffPair_90R track width"
+   (constraint track_width (min 0.408mm) (opt 0.408mm) (max 0.408mm))
+   (condition "A.NetClass == 'DiffPair_90R'")
+)
+
+(rule "DiffPair_90R diff pair gap"
+   (constraint diff_pair_gap (min 0.150mm) (opt 0.150mm) (max 0.150mm))
+   (condition "A.NetClass == 'DiffPair_90R'")
+)
+
+(rule "DiffPair_90R clearance"
+   (constraint clearance (min 0.150mm))
+   (condition "A.NetClass == 'DiffPair_90R' || B.NetClass == 'DiffPair_90R'")
+)
+
+# Automotive HV input net rules (PWR_HV netclass)
+# Covers battery input, reverse protection, TVS, bulk caps
+# Basis: IPC-2221B, working voltage up to 100V, pollution degree B2, uncoated
+# ISO 7637-2 load dump up to +65V, HEI flyback up to -40V/+65V
+
+(rule "PWR_HV clearance"
+   (constraint clearance (min 1.0mm))
+   (condition "A.NetClass == 'PWR_HV' || B.NetClass == 'PWR_HV'")
+)
+
+(rule "PWR_HV copper-to-edge"
+   (constraint edge_clearance (min 1.0mm))
+   (condition "A.NetClass == 'PWR_HV'")
+)
+
+(rule "PWR_HV track width"
+   (constraint track_width (min 1.0mm))
+   (condition "A.NetClass == 'PWR_HV'")
+)
+
+(rule "PWR_HV via drill"
+   (constraint hole_size (min 0.4mm))
+   (condition "A.Type == 'via' && A.NetClass == 'PWR_HV'")
+)
+
+(rule "PWR_HV via diameter"
+   (constraint via_diameter (min 0.8mm))
+   (condition "A.Type == 'via' && A.NetClass == 'PWR_HV'")
+)

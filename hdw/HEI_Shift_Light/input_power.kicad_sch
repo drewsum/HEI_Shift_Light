@@ -2771,6 +2771,26 @@
 			"iIiIiIiIiIiIiIiIiIiIbPf/A2fMElaVLeYGAAAAAElFTkSuQmCC"
 		)
 	)
+	(label "VIN_BATT"
+		(at 49.53 49.53 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "2db3ac74-9233-423b-8298-8aa27fbeddb2")
+	)
+	(label "VIN_FILT"
+		(at 101.6 49.53 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "744fbd80-a1dd-4af4-bee4-ed7fd59ebf0b")
+	)
 	(global_label "VIN_PGOOD"
 		(shape output)
 		(at 217.17 73.66 0)

@@ -2490,6 +2490,26 @@
 		)
 		(uuid "f10a4279-fc90-45fe-839e-6e9fd947667e")
 	)
+	(label "TACH_FILT"
+		(at 45.72 93.98 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "6bc0e6cd-7746-4a6f-87c7-28096bbb101f")
+	)
+	(label "TACH_IN"
+		(at 27.94 93.98 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "a3927023-ed08-450e-b4b3-1b15aca6a61a")
+	)
 	(global_label "I2C_SDA"
 		(shape bidirectional)
 		(at 186.69 149.86 180)
