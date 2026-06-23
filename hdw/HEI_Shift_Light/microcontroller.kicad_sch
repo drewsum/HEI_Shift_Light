@@ -2853,7 +2853,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 46.99 189.23 0)
+		(at 59.69 189.23 0)
 		(mirror y)
 		(unit 1)
 		(body_style 1)
@@ -2864,7 +2864,7 @@
 		(dnp no)
 		(uuid "05942f8d-ce11-4b19-8c12-7f45e209b0f9")
 		(property "Reference" "#PWR0503"
-			(at 46.99 195.58 0)
+			(at 59.69 195.58 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2875,7 +2875,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 46.99 193.04 0)
+			(at 59.69 193.04 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2885,7 +2885,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 46.99 189.23 0)
+			(at 59.69 189.23 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2896,7 +2896,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 46.99 189.23 0)
+			(at 59.69 189.23 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2907,7 +2907,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 46.99 189.23 0)
+			(at 59.69 189.23 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2930,7 +2930,7 @@
 	)
 	(symbol
 		(lib_id "Power_Protection:PESD5V0L4UF")
-		(at 40.64 186.69 270)
+		(at 53.34 186.69 270)
 		(unit 2)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2940,7 +2940,7 @@
 		(dnp no)
 		(uuid "08c52a87-8afa-46fb-a5b6-918b08e71471")
 		(property "Reference" "D501"
-			(at 43.18 185.4199 0)
+			(at 55.88 185.4199 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2951,7 +2951,7 @@
 			)
 		)
 		(property "Value" "PESD5V0L4UF"
-			(at 64.262 186.69 90)
+			(at 76.962 186.69 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2963,7 +2963,7 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_SMD:SOT-886"
-			(at 45.72 186.69 0)
+			(at 58.42 186.69 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2974,7 +2974,7 @@
 			)
 		)
 		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/PESDXL4UF_G_W.pdf"
-			(at 35.56 186.69 0)
+			(at 48.26 186.69 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2985,7 +2985,7 @@
 			)
 		)
 		(property "Description" "Low capacitance unidirectional quadruple ESD protection diode array, 5.0V, Common Anode, SOT-886"
-			(at 40.64 186.69 0)
+			(at 53.34 186.69 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2996,7 +2996,7 @@
 			)
 		)
 		(property "Digi-Key PN" "1727-5796-1-ND"
-			(at 40.64 186.69 0)
+			(at 53.34 186.69 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4008,7 +4008,7 @@
 	)
 	(symbol
 		(lib_id "Power_Protection:PESD5V0L4UF")
-		(at 53.34 186.69 270)
+		(at 40.64 186.69 270)
 		(unit 3)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4018,7 +4018,7 @@
 		(dnp no)
 		(uuid "3568cfd5-e866-4bac-a0da-b7bb349a8724")
 		(property "Reference" "D501"
-			(at 55.88 185.4199 0)
+			(at 43.18 185.4199 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4029,7 +4029,7 @@
 			)
 		)
 		(property "Value" "PESD5V0L4UF"
-			(at 76.962 186.69 90)
+			(at 64.262 186.69 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4041,7 +4041,7 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_SMD:SOT-886"
-			(at 58.42 186.69 0)
+			(at 45.72 186.69 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4052,7 +4052,7 @@
 			)
 		)
 		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/PESDXL4UF_G_W.pdf"
-			(at 48.26 186.69 0)
+			(at 35.56 186.69 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4063,7 +4063,7 @@
 			)
 		)
 		(property "Description" "Low capacitance unidirectional quadruple ESD protection diode array, 5.0V, Common Anode, SOT-886"
-			(at 53.34 186.69 0)
+			(at 40.64 186.69 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4074,7 +4074,7 @@
 			)
 		)
 		(property "Digi-Key PN" "1727-5796-1-ND"
-			(at 53.34 186.69 0)
+			(at 40.64 186.69 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5148,7 +5148,7 @@
 	)
 	(symbol
 		(lib_id "Power_Protection:PESD5V0L4UF")
-		(at 46.99 186.69 270)
+		(at 59.69 186.69 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -5158,7 +5158,7 @@
 		(dnp no)
 		(uuid "b8c3f5d5-0ba2-4209-8b40-04abbae925e0")
 		(property "Reference" "D501"
-			(at 49.53 185.4199 0)
+			(at 62.23 185.4199 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5169,7 +5169,7 @@
 			)
 		)
 		(property "Value" "PESD5V0L4UF"
-			(at 64.262 186.69 90)
+			(at 64.77 186.69 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5180,7 +5180,7 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_SMD:SOT-886"
-			(at 52.07 186.69 0)
+			(at 64.77 186.69 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5191,7 +5191,7 @@
 			)
 		)
 		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/PESDXL4UF_G_W.pdf"
-			(at 41.91 186.69 0)
+			(at 54.61 186.69 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5202,7 +5202,7 @@
 			)
 		)
 		(property "Description" "Low capacitance unidirectional quadruple ESD protection diode array, 5.0V, Common Anode, SOT-886"
-			(at 46.99 186.69 0)
+			(at 59.69 186.69 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5213,7 +5213,7 @@
 			)
 		)
 		(property "Digi-Key PN" "1727-5796-1-ND"
-			(at 46.99 186.69 0)
+			(at 59.69 186.69 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5634,7 +5634,7 @@
 	)
 	(symbol
 		(lib_id "Power_Protection:PESD5V0L4UF")
-		(at 59.69 186.69 270)
+		(at 46.99 186.69 270)
 		(unit 4)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -5644,7 +5644,7 @@
 		(dnp no)
 		(uuid "d522a50a-041d-44f6-b97f-a48603e36890")
 		(property "Reference" "D501"
-			(at 62.23 185.4199 0)
+			(at 49.53 185.4199 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5655,7 +5655,7 @@
 			)
 		)
 		(property "Value" "PESD5V0L4UF"
-			(at 83.312 186.69 90)
+			(at 70.612 186.69 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5667,7 +5667,7 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_SMD:SOT-886"
-			(at 64.77 186.69 0)
+			(at 52.07 186.69 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5678,7 +5678,7 @@
 			)
 		)
 		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/PESDXL4UF_G_W.pdf"
-			(at 54.61 186.69 0)
+			(at 41.91 186.69 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5689,7 +5689,7 @@
 			)
 		)
 		(property "Description" "Low capacitance unidirectional quadruple ESD protection diode array, 5.0V, Common Anode, SOT-886"
-			(at 59.69 186.69 0)
+			(at 46.99 186.69 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5700,7 +5700,7 @@
 			)
 		)
 		(property "Digi-Key PN" "1727-5796-1-ND"
-			(at 59.69 186.69 0)
+			(at 46.99 186.69 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
