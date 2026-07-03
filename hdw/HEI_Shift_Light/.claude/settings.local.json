@@ -1,9 +1,0 @@
-{
-  "permissions": {
-    "allow": [
-      "WebSearch",
-      "WebFetch(domain:share.google)",
-      "WebFetch(domain:www.google.com)"
-    ]
-  }
-}
