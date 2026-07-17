@@ -1,0 +1,50 @@
+Reference,Value,Datasheet,Footprint,Qty,DNP,Digi-Key PN
+C201,100uF,https://yageogroup.com/content/datasheet/asset/file/KEM_T2076_T52X-530,Capacitor_Tantalum_SMD:CP_EIA-7343-43_Kemet-X,1,,399-13127-1-ND
+"C202,C203,C303,C403,C404,C501,C502,C503,C601,C602,C604,C605,C609,C611",0.1uF,https://product.tdk.com/en/system/files/dam/doc/product/capacitor/ceramic/mlcc/charasheet/c1005x7r1h104k050bb.pdf,Capacitors_SMD:C_0402,14,,445-5932-1-ND
+"C204,C301",10uF,https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/2322/CL31B106KAHZW6E_Spec.pdf,Capacitors_SMD:C_1206,2,,1276-7031-1-ND
+C302,10nF,https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/609/CL05B103KB5NNN_Spec.pdf,Capacitors_SMD:C_0402,1,,1276-1028-1-ND
+C304,22uF,https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/41/CL31B226MPHNNNE_Spec.pdf,Capacitors_SMD:C_1206,1,,1276-3148-1-ND
+"C305,C406,C407,C504,C603,C606,C610",10uF,https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM188R61A106KE69-01.pdf,Capacitors_SMD:C_0603,7,,445-C1608X5R1A106K080ACCT-ND
+C401,3300pF,https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM1555C1H332GE01-01A.pdf,Capacitors_SMD:C_0402,1,,490-GRM1555C1H332GE01DTR-ND
+"C402,C405",10nF,https://www.yageo.com/en/Chart/Download/pdf/CC0603JRNPO9BN103,Capacitors_SMD:C_0402,2,,1276-1028-1-ND
+"C607,C608",47pF,https://www.yageo.com/en/Chart/Download/pdf/CC0402JRNPO9BN470,Capacitors_SMD:C_0402,2,,311-1021-1-ND
+"D201,D401",TVS,https://www.vishay.com/docs/88392/smbj.pdf,Diode_SMD:D_SMB,2,,SMBJ15CA
+"D301,D402",BAT54SW,https://assets.nexperia.com/documents/data-sheet/BAT54W_SER.pdf,Package_TO_SOT_SMD:SOT-323_SC-70,2,,BAT54SWT1GOSCT-ND
+D501,PESD5V0L4UF,https://assets.nexperia.com/documents/data-sheet/PESDXL4UF_G_W.pdf,Package_TO_SOT_SMD:SOT-886,1,,1727-5796-1-ND
+D601,SP0502BAJTG,http://www.littelfuse.com/~/media/files/littelfuse/technical%20resources/documents/data%20sheets/sp05xxba.pdf,Package_TO_SOT_SMD:SOT-323_SC-70,1,,F3158CT-ND
+D701,Inolux_IN-P55TATRGB,https://www.inolux-corp.com/datasheet/SMDLED/RGB%20Top%20View/IN-P55TATRGB.pdf,LED_SMD:LED_Inolux_IN-P55TATRGB_PLCC6_5.0x5.5mm_P1.8mm,1,,1830-1098-1-ND
+"H805,H806,H807,H808,H809,H810,H811,H812",MountingScrew,https://apmhexseal.com/wp-content/uploads/APMShortCatalog-HEX-SC-01-Rev.-06.19.19.pdf,,8,,335-1156-ND
+J201,VIN,https://www.keyelco.com/userAssets/file/K75p73.pdf,Custom Footprints Library:CONN_7691_KEY,1,,36-7691-ND
+J401,TACH,https://www.keyelco.com/userAssets/file/K75p73.pdf,Custom Footprints Library:CONN_7691_KEY,1,,36-7691-ND
+J501,PICKIT4,https://suddendocs.samtec.com/catalog_english/htsw_th.pdf,Custom Footprints Library:PICKIT4_Header,1,,SAM1051-08-ND
+J601,USB_C_Receptacle_USB2.0_16P,https://www.usb.org/sites/default/files/documents/usb_type-c.zip,Connector_USB:USB_C_Receptacle_GCT_USB4110,1,,2073-USB4110-GF-A-1-ND
+L201,10uH,https://www.vishay.com/docs/34563/ihlp-2020cz-8a.pdf,Inductor_SMD:L_Vishay_IHLP-2020,1,,541-IHLP2020CZER100M8ACT-ND
+L301,2.2uH,https://www.vishay.com/docs/34535/ihlp-1212bz-5a.pdf,Inductors_SMD:L_Vishay_IHLP-1212,1,,541-IHLP1212BZEV2R2M5ACT-ND
+"L601,L602",600R 0.5A,https://pim.murata.com/asset/pim4/ferriteBeadInductortypefilter/ENFA0018_PDF_FERRITEBEADINDUCTORTYPEFILTER,Inductors_SMD:L_0402,2,,490-5441-1-ND
+"MK801,MK802,MK803,MK804",Standoff,https://www.keyelco.com/userAssets/file/K75p87.pdf,,4,,36-24397-ND
+"Q301,Q302,Q701,Q702,Q703",DMN3150LW-7,https://www.infineon.com/dgdl/Infineon-BSS214NW-DS-v02_02-en.pdf?fileId=db3a30431b3e89eb011b695aebc01bde,Package_TO_SOT_SMD:SOT-323_SC-70,5,,DMN3150LWDICT-ND
+R201,332k,https://www.vishay.com/docs/20035/dcrcwe3.pdf,Resistors_SMD:R_0402,1,,541-332KLCT-ND
+R202,15k,https://www.vishay.com/docs/20035/dcrcwe3.pdf,Resistors_SMD:R_0402,1,,541-15.0KLCT-ND
+R203,30.1k,https://www.vishay.com/docs/20035/dcrcwe3.pdf,Resistors_SMD:R_0402,1,,541-4109-1-ND
+R204,7.5k,https://www.vishay.com/docs/20035/dcrcwe3.pdf,Resistors_SMD:R_0402,1,,541-7.50KLCT-ND
+"R205,R404,R405,R601,R602,R605,R606",100k,https://www.vishay.com/docs/20035/dcrcwe3.pdf,Resistors_SMD:R_0402,7,,541-100KLCT-ND
+R206,42.2k,https://www.vishay.com/docs/20035/dcrcwe3.pdf,Resistors_SMD:R_0402,1,,541-42.2KLCT-ND
+"R301,R306,R406,R501,R503,R504,R704,R705,R706",10k,https://www.vishay.com/docs/20035/dcrcwe3.pdf,Resistors_SMD:R_0402,9,,541-10.0KLCT-ND
+R302,10,https://www.vishay.com/docs/20035/dcrcwe3.pdf,Resistors_SMD:R_0402,1,,541-10.0LCT-ND
+R303,0,https://www.vishay.com/docs/20035/dcrcwe3.pdf,Resistors_SMD:R_0402,1,,541-0.0JCT-ND
+"R307,R708",150,https://www.vishay.com/docs/20035/dcrcwe3.pdf,Resistors_SMD:R_0603,2,,541-4023-1-ND
+"R401,R402",10k,https://industrial.panasonic.com/cdbs/www-data/pdf/AQA0000/AQA0000CE21.pdf,Resistors_SMD:R_0805,2,,P16059CT-ND
+R403,5.6k,https://www.vishay.com/docs/20035/dcrcwe3.pdf,Resistors_SMD:R_0402,1,,541-5.60KLCT-ND
+R407,133k,https://www.vishay.com/docs/20035/dcrcwe3.pdf,Resistors_SMD:R_0402,1,,541-133KLCT-ND
+R502,1k,https://www.vishay.com/docs/20035/dcrcwe3.pdf,Resistors_SMD:R_0402,1,,541-1.00KLCT-ND
+"R603,R604,R701,R702,R703",27,https://www.vishay.com/docs/20035/dcrcwe3.pdf,Resistors_SMD:R_0402,5,,541-4082-1-ND
+"R607,R608",5.1k,https://www.vishay.com/docs/20035/dcrcwe3.pdf,Resistors_SMD:R_0402,2,,541-5.10KLCT-ND
+"R707,R709",91,https://www.vishay.com/docs/20035/dcrcwe3.pdf,Resistors_SMD:R_0603,2,,541-CRCW060391R0FKEACCT-ND
+TP201,GND,https://suddendocs.samtec.com/catalog_english/htsw_th.pdf,Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Horizontal,1,,SAM1051-01-ND
+U201,TPS26624DRCR,https://www.ti.com/lit/gpn/tps2662,Package_SON:VSON-10-1EP_3x3mm_P0.5mm_EP1.65x2.4mm,1,,TPS26624DRCR-ND
+U301,TPS62153,https://www.ti.com/lit/ds/symlink/tps62150.pdf?&ts=1589125931316,Package_DFN_QFN:QFN-16-1EP_3x3mm_P0.5mm_EP1.675x1.675mm,1,,296-30010-1-ND
+U401,LM2907,https://www.ti.com/lit/ds/symlink/lm2917-n.pdf,Package_SO:SOIC-8_3.9x4.9mm_P1.27mm,1,,LM2907MX-8/NOPBCT-ND
+U402,MCP4019-103ELT,http://ww1.microchip.com/downloads/en/DeviceDoc/22147a.pdf,Package_TO_SOT_SMD:SOT-353_SC-70-5,1,,MCP4019T-103E/LTCT-ND
+U501,PIC18F16Q41,https://ww1.microchip.com/downloads/aemDocuments/documents/MCU08/ProductDocuments/DataSheets/PIC18F06-16Q41-Microcontroller-Data-Sheet-DS40002308.pdf,Package_DFN_QFN:VQFN-20-1EP_3x3mm_P0.4mm_EP1.7x1.7mm,1,,150-PIC18F16Q41-I/REB-ND
+U601,FT234XD,http://www.ftdichip.com/Support/Documents/DataSheets/ICs/DS_FT234XD.pdf,Housings_DFN_QFN:DFN-12-1EP_3x3mm_Pitch0.45mm,1,,768-1178-1-ND
+U602,ISO7321C,http://www.ti.com/general/docs/lit/getliterature.tsp?genericPartNumber=iso7321c&fileType=pdf,Package_SO:SOIC-8_3.9x4.9mm_P1.27mm,1,,296-42102-1-ND
